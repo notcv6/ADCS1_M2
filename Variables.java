@@ -1,7 +1,7 @@
 /**
  * 
  * Name/Programmer: Andrew Hernandez
- * Date: 8/15/2023
+ * Date: 8/21/2023
  * Assignment: 2.2.1: Variables
  * Purpose: To learn and use Variables in code.
  * 
@@ -12,7 +12,7 @@ public class Variables
     // Output header information.
     public static void main(String[]args) {
         System.out.println("\nName/Programmer: Andrew Hernandez" 
-        + "\nDate: 8/15/2023" 
+        + "\nDate: 8/21/2023" 
         + "\nAssignment: 2.2.1: Variables" 
         + "\nPurpose: To learn and use Variables in code."
         + "\n*****************************************************************\n");
@@ -53,9 +53,9 @@ public class Variables
         System.out.println(bool2);
 
         System.out.println("1. You can not reassign a byte to the value of 950" +
-            " because then it would turn into an integer as a byte can only" +
-            " hold 8 bits of information.");
+            " because then it would turn into an integer.");
             
-        System.out.println("2. You can not remove the f in a float because then it would turn into a double.");
+        System.out.println("2. You can not remove the f in a float because" 
+            + " then it would turn into a double.");
     }
 }
