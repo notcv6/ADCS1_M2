@@ -12,10 +12,10 @@ public class AsciiArt
     // Output header information.
     public static void main(String[]args) {
         System.out.println("\nName/Programmer: Andrew Hernandez" 
-        + "\nDate: 8/15/2023" 
-        + "\nAssignment: 2.1.3: AsciiArt" 
-        + "\nPurpose: To generate an ASCII Art."
-        + "\n************************************************************************\n");
+            + "\nDate: 8/15/2023" 
+            + "\nAssignment: 2.1.3: AsciiArt" 
+            + "\nPurpose: To generate an ASCII Art."
+            + "\n************************************************************************\n");
         System.out.println("             *+=              ");
         System.out.println("            ***++*++          ");
         System.out.println("        *++#=++#*+**+         ");

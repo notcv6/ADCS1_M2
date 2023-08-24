@@ -12,10 +12,10 @@ public class VariablesWorksheet
     // Output header information.
     public static void main(String[]args) {
         System.out.println("\nName/Programmer: Andrew Hernandez" 
-        + "\nDate: 8/23/2023" 
-        + "\nAssignment: 2.2.2 VariablesWorksheet" 
-        + "\nPurpose: To learn from the mistakes from VariablesWorksheet."
-        + "\n*****************************************************************\n");
+            + "\nDate: 8/23/2023" 
+            + "\nAssignment: 2.2.2 VariablesWorksheet" 
+            + "\nPurpose: To learn from the mistakes from VariablesWorksheet."
+            + "\n*****************************************************************\n");
 //345678901234567890123456789012345678901234567890123456789012345678901234567890123
 
         int x = 128; System.out.println(x); //line1

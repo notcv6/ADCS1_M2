@@ -12,10 +12,10 @@ public class Variables
     // Output header information.
     public static void main(String[]args) {
         System.out.println("\nName/Programmer: Andrew Hernandez" 
-        + "\nDate: 8/21/2023" 
-        + "\nAssignment: 2.2.1: Variables" 
-        + "\nPurpose: To learn and use Variables in code."
-        + "\n*****************************************************************\n");
+            + "\nDate: 8/21/2023" 
+            + "\nAssignment: 2.2.1: Variables" 
+            + "\nPurpose: To learn and use Variables in code."
+            + "\n*****************************************************************\n");
 //345678901234567890123456789012345678901234567890123456789012345678901234567890123
 
         byte byte1 = 8;

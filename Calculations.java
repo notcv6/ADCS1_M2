@@ -12,10 +12,10 @@ public class Calculations
     // Output header information.
     public static void main(String[]args) {
         System.out.println("\nName/Programmer: Andrew Hernandez" 
-        + "\nDate: 8/23/2023" 
-        + "\nAssignment: 2.2.3: Calculations" 
-        + "\nPurpose: To solve some calculations."
-        + "\n*****************************************************************\n");
+            + "\nDate: 8/23/2023" 
+            + "\nAssignment: 2.2.3: Calculations" 
+            + "\nPurpose: To solve some calculations."
+            + "\n*****************************************************************\n");
 //345678901234567890123456789012345678901234567890123456789012345678901234567890123
 
         float rectLength = 20;
