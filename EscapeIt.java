@@ -12,10 +12,10 @@ public class EscapeIt
     // Output header information.
     public static void main(String[]args) {
         System.out.println("\nName/Programmer: Andrew Hernandez" 
-        + "\nDate: 8/15/2023" 
-        + "\nAssignment: 2.1.4: EscapeIt part 2" 
-        + "\nPurpose: To generate a template for future use."
-        + "\n*****************************************************************\n");
+            + "\nDate: 8/15/2023" 
+            + "\nAssignment: 2.1.4: EscapeIt part 2" 
+            + "\nPurpose: To generate a template for future use."
+            + "\n*****************************************************************\n");
         
         System.out.println( "samben" );
         System.out.print( "samben" ); 

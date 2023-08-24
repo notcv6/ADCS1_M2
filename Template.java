@@ -11,7 +11,7 @@ public class Template
 {
     // Output header information.
     public static void main(String[]args) {
-        System.out.println("\nName/Programmer: Andrew Hernandez" 
+        System.out.println("Name/Programmer: Andrew Hernandez" 
             + "\nDate: 8/15/2023" 
             + "\nAssignment: 2.1.x: Template" 
             + "\nPurpose: To generate a template for future use."
