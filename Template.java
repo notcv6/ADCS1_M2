@@ -18,9 +18,12 @@ public class Template
             + "\nPurpose: "
             + "\n****************************************************\n");
         
+        // Declare variables.
+         
+        
         // Begin program.
         
-            
+        
         // Ending statement.
         System.out.println("****************************************************");
         System.out.println("End program.");
