@@ -7,6 +7,8 @@
  * 
  */
 
+import java.util.Scanner;
+
 public class Template
 {
     // Output header information.
@@ -19,7 +21,7 @@ public class Template
             + "\n****************************************************\n");
         
         // Declare variables.
-         
+        
         
         // Begin program.
         
