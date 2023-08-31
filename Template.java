@@ -27,7 +27,7 @@ public class Template
         
         
         // Ending statement.
-        System.out.println("****************************************************");
+        System.out.println("\n*****************************************");
         System.out.println("End program.");
     }
 }

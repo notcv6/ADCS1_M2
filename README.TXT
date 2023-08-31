@@ -1,5 +1,3 @@
-I am a big dummy.
-
 git clone https://github.com/notcv6/ADCS1_M2.git
 
                                                                                                     
@@ -52,3 +50,4 @@ git clone https://github.com/notcv6/ADCS1_M2.git
                    ..::::-::.:*   #:=-=-::-#=      .=#=..++:.::+   =+.:-:                           
                          ...-+*-. *:-:..:.::+*:-=+**=.. +*=:::::   +:-.                             
                                :**+. ..  :::.-=--:.. .-+=-.----   :.                                
+
