@@ -64,7 +64,6 @@ public class ComputeChange
         } else {
             pennies = Math.floor(moneyInput/0.01);
         }
-        
 
         System.out.println("Dollars: " + df.format(dollars));
         System.out.println("Quarters: " + df.format(quarters));
