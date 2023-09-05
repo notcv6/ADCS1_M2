@@ -30,16 +30,20 @@ public class ComputeChange
         double nickels;
         double pennies;
         
+        // Used for formatting numbers into whole
         DecimalFormat df = new DecimalFormat("0");
         
         // Begin program.
         System.out.print("Please input an amount in dollars and cents.");
         moneyInput = keyboard.nextDouble();
         
-        System.out.println(moneyInput);
+        System.out.println("The amount " + moneyInput + " consists of: ");
         
+        // Convert amount to a whole number
         dollars = Math.floor(moneyInput/1);
+        // Checks if amount is not negative
         if (dollars >= 0) {
+            // Subtracts amount from total
             moneyInput = moneyInput-(dollars*1);
         }
         quarters = Math.floor(moneyInput/0.25);
@@ -54,9 +58,14 @@ public class ComputeChange
         if (nickels >= 0) {
             moneyInput = moneyInput-(nickels*.05);
         }
-        pennies = Math.floor(moneyInput/0.01);
+        // Checks if the remaining amount can be rounded
+        if (moneyInput >= 0.005) {
+            pennies = Math.round(moneyInput/0.01);
+        } else {
+            pennies = Math.floor(moneyInput/0.01);
+        }
         
-        
+
         System.out.println("Dollars: " + df.format(dollars));
         System.out.println("Quarters: " + df.format(quarters));
         System.out.println("Dimes: " + df.format(dimes));
