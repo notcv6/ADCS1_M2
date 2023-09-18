@@ -2,7 +2,7 @@
  * 
  * Name/Programmer: Andrew Hernandez
  * Date: x/x/2023
- * Assignment: 2.x.x: Template
+ * Assignment: 3.x.x: Template
  * Purpose: To generate a template for future use.
  * 
  */
@@ -21,7 +21,7 @@ public class Template
             + "\n****************************************************\n");
         
         // Declare variables.
-        
+        Scanner keyboard = new Scanner(System.in);
         
         // Begin program.
         
