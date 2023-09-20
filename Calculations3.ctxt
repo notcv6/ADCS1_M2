@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Calculations3
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=length\ width\ temp
+comment2.target=double\ rectangleMath(double,\ double,\ int)
+comment3.params=radius\ temp
+comment3.target=double\ circleMath(double,\ int)
+comment4.params=base\ height
+comment4.target=double\ triangleArea(double,\ double)
+comment5.params=base\ height
+comment5.target=double\ as(double,\ double)
+numComments=6
