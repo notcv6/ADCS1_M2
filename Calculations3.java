@@ -1,25 +1,25 @@
 /**
  * 
  * Name/Programmer: Andrew Hernandez
- * Date: 8/29/2023
+ * Date: 9/22/2023
  * Assignment: 2.3.4: Calculations3
- * Purpose: To solve some calculations.
+ * Purpose: To learn how to create methods by solving calculations.
  * 
  */
 
 import java.util.Scanner;
-import java.text.DecimalFormat;
 
 public class Calculations3
 {
     // Output header information.
     public static void main(String[]args) {
         System.out.println("\nName/Programmer: Andrew Hernandez" 
-            + "\nDate: 8/29/2023" 
-            + "\nAssignment: 2.3.4: Calculations3" 
-            + "\nPurpose: To solve some calculations."
+            + "\nDate: 9/22/2023" 
+            + "\nAssignment: 3.2.1: Calculations3" 
+            + "\nPurpose: To learn how to create methods by solving calculations."
             + "\n*****************************************************************\n");
-
+    
+        // Initialize variables.
         Scanner keyboard = new Scanner(System.in);
         double rectLength;
         double rectWidth;
@@ -29,82 +29,100 @@ public class Calculations3
         double footVar;
         double meterVar;
         double celsiusVar;
-        double farhrenVar;
+        double fahrenVar;
         
-        DecimalFormat df = new DecimalFormat("0.00");
-        
+        // Start of Program
         System.out.print("What is the length of the rectangle? ");
         rectLength = keyboard.nextDouble();
-        System.out.print("What is the length of the rectangle? ");
+        System.out.print("What is the width of the rectangle? ");
         rectWidth = keyboard.nextDouble();
-        System.out.print("What is the radius of the circle? ");
+        System.out.printf("The perimeter of a rectangle with a length of "
+            +rectLength+" and a width of "+rectWidth+" is: %.2f"
+            ,rectanglePerimeter(rectLength,rectWidth));
+        System.out.printf("\nThe area of a rectangle with a length of "
+            +rectLength+" and a width of "+rectWidth+" is: %.2f"
+            ,rectangleArea(rectLength,rectWidth));
+        
+        System.out.print("\nWhat is the radius of the circle? ");
         circleRadius = keyboard.nextDouble();
+        System.out.printf("The circumference of a circle with a radius of "
+            +circleRadius+" is: %.2f",circleCircumference(circleRadius));
+        System.out.printf("\nThe area of a circle with a radius of "
+            +circleRadius+" is: %.2f\n",circleArea(circleRadius));
+        
         System.out.print("What is the base of the triangle? ");
         triangleBase = keyboard.nextDouble();
-        System.out.print("What is the length of the rectangle? ");
+        System.out.print("What is the height of the triangle? ");
         triangleHeight = keyboard.nextDouble();
+        System.out.printf("The area of a triangle with a base of "
+            +triangleBase+" and a height of "+triangleHeight+" is: %.2f\n"
+            ,triangleArea(triangleBase,triangleHeight));
+        
         System.out.print("What is the length of your object in feet? ");
         footVar = keyboard.nextDouble();
-        System.out.print("What is the length of your object in meters? ");
+        System.out.printf(footVar+" feet converted to meters is: %.2f"
+            ,feetToMeters(footVar));
+        
+        System.out.print("\nWhat is the length of your object in meters? ");
         meterVar = keyboard.nextDouble();
-        System.out.print("What is the temperature of your object in celsius? ");
+        System.out.printf(meterVar+" meters converted to feet is: %.2f"
+            ,metersToFeet(meterVar));
+        
+        System.out.print("\nWhat is the temperature of your object in celsius? ");
         celsiusVar = keyboard.nextDouble();
-        System.out.print("What is the temperature of your object in fahrenheit? ");
-        farhrenVar = keyboard.nextDouble();
+        System.out.printf(celsiusVar+" degrees celsius converted to fahrenheit"
+            +" is: %.2f",celsiusToFahrenheit(celsiusVar));
         
-        System.out.printf("The perimeter of a rectangle with a length of " 
-            + rectLength + " and a width of " + rectWidth + 
-            " is: %.2f",rectangleMath(rectLength,rectWidth,0));
-        System.out.printf("The area of a rectangle with a length of " 
-            + rectLength + " and a width of " + rectWidth + 
-            " is: %.2f",rectangleMath(rectLength,rectWidth,1));
+        System.out.print("\nWhat is the temperature of your object in fahrenheit? ");
+        fahrenVar = keyboard.nextDouble();
+        System.out.printf(fahrenVar+" degrees fahrenheit converted to celsius"
+            +" is: %.2f",fahrenheitToCelsius(fahrenVar));
         
-        System.out.println("The circumference of a circle with a radius of " 
-            + circleRadius + " is: " 
-            + (df.format(2*Math.PI*circleRadius)));
-        System.out.println("The area of a circle with a radius of " 
-            + circleRadius + " is: " 
-            + (df.format(Math.PI*circleRadius*circleRadius)));
-        
-        System.out.println("The area of a triangle with a base of " 
-            + triangleBase + " and a height of " + triangleHeight + " is: " 
-            + (df.format((triangleBase*triangleHeight)/2)));
-        
-        System.out.println("The conversion of " + footVar + 
-            " feet to meters is " 
-            + (df.format(footVar/3.281)));
-        System.out.println("The conversion of " + meterVar + 
-            " meters to feet is " 
-            + (df.format(meterVar*3.281)));
-        
-        System.out.println("The conversion of " + celsiusVar + 
-            " celsius to fahrenheit is " 
-            + (df.format(((celsiusVar*9)/5)+32)));
-        System.out.println("The conversion of " + farhrenVar + 
-            " fahrenheit to celsius is " 
-            + (df.format((farhrenVar-32)*5/9)));
     }
-    public static double rectangleMath(double length, double width, int temp) {
-        if (temp == 0) {
-            return 2*(length+width);
-        } else {
-            return length*width;
-        }
+    
+    // Calculates the perimeter of a rectangle.
+    // Accepts a double input for Length and Width.
+    public static double rectanglePerimeter(double length, double width) {
+        return 2*(length+width);
     }
-    public static double circleMath(double radius, int temp) {
-        if (temp == 0) {
-            return 2*Math.PI*radius;
-        } else {
-            return Math.PI*radius*radius;
-        }
+    // Calculates the area of a rectangle.
+    // Accepts a double input for Length and Width.
+    public static double rectangleArea(double length, double width) {
+        return length*width;
     }
+    // Calculates the circumference of a circle.
+    // Accepts a double input for the radius.
+    public static double circleCircumference(double radius) {
+        return 2*Math.PI*radius;
+    }
+    // Calculates the area of a circle.
+    // Accepts a double input for the radius.
+    public static double circleArea(double radius) {
+        return Math.PI*radius*radius;
+    }
+    // Calculates the area of a triangle.
+    // Accepts a double input for the base and height.
     public static double triangleArea(double base, double height) {
         return (base*height)/2;
     }
-    public static double fahrenConversion(double base, double height) {
-        return (base*height)/2;
+    // Converts feet into meters.
+    // Accepts a double input for the initial length.
+    public static double feetToMeters(double foot) {
+        return foot/3.281;
     }
-    public static double fahrenConversion(double base, double height) {
-        return (base*height)/2;
+    // Converts feet into meters.
+    // Accepts a double input for the initial length.
+    public static double metersToFeet(double meter) {
+        return meter*3.281;
+    }
+    // Converts feet into meters.
+    // Accepts a double input for the initial temperature.
+    public static double fahrenheitToCelsius(double fahrenheit) {
+        return (fahrenheit-32)*5/9;
+    }
+    // Converts celsius into fahrenheit.
+    // Accepts a double input for the initial temperature.
+    public static double celsiusToFahrenheit(double celsius) {
+        return ((celsius*9)/5)+32;
     }
 }
