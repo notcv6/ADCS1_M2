@@ -9,7 +9,7 @@
 
 import java.util.Scanner;
 
-public class Template
+public class TemplateOld
 {
     // Output header information.
     public static void main(String[]args) {
