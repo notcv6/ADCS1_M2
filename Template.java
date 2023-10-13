@@ -22,6 +22,7 @@ public class Template
         System.out.println("**************************************************");
         
         // Variable declarations
+        Scanner keyboard = new Scanner(System.in);
         
         // 
         
