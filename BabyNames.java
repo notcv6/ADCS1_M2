@@ -2,12 +2,12 @@
 /**
  * Name/Programmer: Andrew Hernandez
  * Date: October 2, 2023
- * Assignment: Assignment: 2.0.0 Template
+ * Assignment: Assignment: 2.0.0 BabyNames
  * Purpose: Make sure our template is correct
  */
 
 import java.util.Scanner;
-public class Template
+public class BabyNames
 {
     public static void main(String[] args)
     {
@@ -23,8 +23,9 @@ public class Template
         
         // Variable declarations
         Scanner keyboard = new Scanner(System.in);
-        
-        // 
+        String string1;
+        String string2;
+        String string3;
         
         // 
         
@@ -32,5 +33,22 @@ public class Template
         System.out.println();
         System.out.println("**************************************************");
         System.out.println("Ending Assignment <#.#.#>: ");
+    }
+    
+    public static String allLower(String string) {
+        return string.toLowerCase();
+    }
+    public static String firstUpper(String string) {
+        return string.substring(0,1).toUpperCase()+string.substring(1);
+    }
+    public static String allPossibles(String string1, String string2, String string3) {
+       return "All possible combinations of baby names based"+
+           "\non your input are: "+
+           "\n\t"+string1+string2+
+           "\n\t"+string1+string3+
+           "\n\t"+string2+string1+
+           "\n\t"+string2+string3+
+           "\n\t"+string3+string1+
+           "\n\t"+string3+string1; 
     }
 }

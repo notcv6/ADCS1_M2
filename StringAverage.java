@@ -2,8 +2,8 @@
 /**
  * Name/Programmer: Andrew Hernandez
  * Date: October 2, 2023
- * Assignment: Assignment: 2.0.0 StringAverage Check
- * Purpose: Make sure our template is correct
+ * Assignment: Assignment: 2.8.3 Average Length of Two Strings
+ * Purpose: Using String methods & creating custom methods.
  */
 
 import java.util.Scanner;
