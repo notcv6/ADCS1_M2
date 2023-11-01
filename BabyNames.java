@@ -28,7 +28,15 @@ public class BabyNames
         String string3;
         
         // 
+        System.out.print("Enter the first baby name: ");
+        string1 = keyboard.nextLine();
+        System.out.print("Enter the second baby name: ");
+        string2 = keyboard.nextLine();
+        System.out.print("Enter the third baby name: ");
+        string3 = keyboard.nextLine();
         
+        System.out.println("The lowercase representation of the names"+
+            \n"you entered are "
         // Ending statement
         System.out.println();
         System.out.println("**************************************************");
