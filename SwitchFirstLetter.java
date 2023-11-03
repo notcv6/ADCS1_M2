@@ -25,7 +25,7 @@ public class SwitchFirstLetter
         String string1;
         String string2;
         
-        // 
+        // Output
         for (int i=0;i<5;i++) {
             System.out.print("Enter a string: ");
             string1 = keyboard.nextLine();
@@ -41,6 +41,8 @@ public class SwitchFirstLetter
         System.out.println("Ending Assignment <2.8.5>: SwitchFirstLetter");
     }
     
+    // switchFirstLetter; Switches the first letters of two strings.
+    // Accepts two string inputs for string1 and string2.
     public static String switchFirstLetter(String string1, String string2) {
         return string2.substring(0,1).concat(string1.substring(1))+" and "+string1.substring(0,1).concat(string2.substring(1));
     }

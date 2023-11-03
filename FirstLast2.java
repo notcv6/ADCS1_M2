@@ -26,7 +26,7 @@ public class FirstLast2
         String string2 = "";
         
         // Accept string input for firstName and lastName
-        // then concatenate the beginning and last characters respectively.
+        // then compares both strings using the testChars method.
         for (var i=0; i<5; i++) {
             System.out.print("Enter the first string: ");
             string1 = keyboard.nextLine();
@@ -50,6 +50,8 @@ public class FirstLast2
         System.out.println("Ending Assignment <2.8.7>: FirstLast2");
     }
     
+    // testChars; Compares the first and last characters of two strings respectively.
+    // Accepts string input for string1 and string2.
     public static boolean testChars(String string1, String string2) {
         return string1.substring(0,1).equals(string2.substring(string2.length()-1,string2.length()));
     }

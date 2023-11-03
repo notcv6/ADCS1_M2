@@ -1,0 +1,61 @@
+
+/**
+ * Name/Programmer: Andrew Hernandez
+ * Date: October 19, 2023
+ * Assignment: 2.8.8 MonthDays
+ * Purpose: Using String methods & creating custom methods
+ */
+
+import java.util.Scanner;
+public class MonthDays
+{
+    static String[] months = {"january", "february", "march", "april", "may", 
+                "june", "july", "august", "september", "october", "november", 
+                "december"};
+                
+    public static void main(String[] args)
+    {
+        // Output Header Information
+        System.out.println("\nName/Programmer: Andrew Hernandez");
+        System.out.println("Date: October 19, 2023");
+        System.out.println("Assignment: 2.8.8 MonthDays");
+        System.out.println("Purpose: Using String methods & creating custom");
+        System.out.println("\tmethods");
+        System.out.println();
+        System.out.println("**************************************************");
+        
+        // Variable declarations
+        Scanner keyboard = new Scanner(System.in);
+        int year;
+        String month;
+        
+        // 
+        System.out.print("Enter the month: ");
+        month = keyboard.nextLine();
+        System.out.print("Enter the year: ");
+        year = keyboard.nextInt();
+        System.out.println("");
+        
+        if (isValidMonth(month)) {
+            System.out.println("something");
+        } else {
+            System.out.println(month+" is not a valid month name.");
+        }
+        
+        // Ending statement
+        System.out.println();
+        System.out.println("**************************************************");
+        System.out.println("Ending Assignment <#.#.#>: ");
+    }
+    public static boolean isValidMonth(String string) {
+       string = string.toLowerCase();
+        
+        for (int i=0;i<months.length;i++) {
+           if (string.equals(months[i])) {
+               return true;
+           }
+       }
+       
+       return false;
+    }
+}

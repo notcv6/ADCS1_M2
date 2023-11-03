@@ -25,7 +25,7 @@ public class LeaveOutLetter
         String string;
         int index = 0;
         
-        // 
+        // Output
         for (int i=0;i<5;i++) {
             System.out.print("Enter a string: ");
             string = keyboard.nextLine();
@@ -43,6 +43,8 @@ public class LeaveOutLetter
         System.out.println("Ending Assignment <2.8.6>: LeaveOutLetter");
     }
     
+    // leaveOutLetter; Removes a character from a string at the specified index.
+    // Accepts an string input for string and integer input for index.
     public static String leaveOutLetter(String string, int index) {
         return string.substring(0, index)+string.substring(index+1);
     }
