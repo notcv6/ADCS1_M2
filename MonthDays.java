@@ -2,7 +2,7 @@
 /**
  * Name/Programmer: Andrew Hernandez
  * Date: October 19, 2023
- * Assignment: 2.8.8 MonthDays
+ * Assignment: 2.8.9 MonthDays
  * Purpose: Using String methods & creating custom methods
  */
 
@@ -18,7 +18,7 @@ public class MonthDays
         // Output Header Information
         System.out.println("\nName/Programmer: Andrew Hernandez");
         System.out.println("Date: October 19, 2023");
-        System.out.println("Assignment: 2.8.8 MonthDays");
+        System.out.println("Assignment: 2.8.9 Days in a Month");
         System.out.println("Purpose: Using String methods & creating custom");
         System.out.println("\tmethods");
         System.out.println();
@@ -32,12 +32,13 @@ public class MonthDays
         // 
         System.out.print("Enter the month: ");
         month = keyboard.nextLine();
+        month = month.toLowerCase();
         System.out.print("Enter the year: ");
         year = keyboard.nextInt();
         System.out.println("");
         
         if (isValidMonth(month)) {
-            System.out.println("something");
+            System.out.println(BabyNames.firstUpper(month.substring(0,3))+" "+year+" has 31 days");
         } else {
             System.out.println(month+" is not a valid month name.");
         }
@@ -45,11 +46,9 @@ public class MonthDays
         // Ending statement
         System.out.println();
         System.out.println("**************************************************");
-        System.out.println("Ending Assignment <#.#.#>: ");
+        System.out.println("Ending Assignment <2.8.9>: Days in a Month");
     }
     public static boolean isValidMonth(String string) {
-       string = string.toLowerCase();
-        
         for (int i=0;i<months.length;i++) {
            if (string.equals(months[i])) {
                return true;
