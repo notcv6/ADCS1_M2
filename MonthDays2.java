@@ -2,12 +2,12 @@
 /**
  * Name/Programmer: Andrew Hernandez
  * Date: October 19, 2023
- * Assignment: 2.8.9 MonthDays
+ * Assignment: 2.8.9 MonthDays2
  * Purpose: Using String methods & creating custom methods
  */
 
 import java.util.Scanner;
-public class MonthDays
+public class MonthDays2
 {
     static String[] months = {"january", "february", "march", "april", "may", 
                 "june", "july", "august", "september", "october", "november", 
@@ -37,10 +37,19 @@ public class MonthDays
         year = keyboard.nextInt();
         System.out.println("");
         
-        if (isValidMonth(month)) {
+        if (isValidMonth(month) && month == "september" || 
+            month == "april" || month == "june" || month == "november") {
+            System.out.println(firstUpper(month.substring(0,3))+" "+year+" has 30 days");
+        } else if (month == "february" && year/4 != 0 
+            && year/100 == 0 && year/400 != 0) {
+            System.out.println(firstUpper(month.substring(0,3))+" "+year+" has 29 days");
+        } else if (month == "february" && year/4 == 0 
+            || year/100 != 0 || year/400 == 0) {
+            System.out.println(firstUpper(month.substring(0,3))+" "+year+" has 28 days");
+        } else if (isValidMonth(month)) {
             System.out.println(firstUpper(month.substring(0,3))+" "+year+" has 31 days");
         } else {
-            System.out.println(month+" is not a valid month name.");
+           System.out.println(month+" is not a valid month name."); 
         }
         
         // Ending statement
