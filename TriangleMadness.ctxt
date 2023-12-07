@@ -2,12 +2,12 @@
 comment0.target=TriangleMadness
 comment1.params=args
 comment1.target=void\ main(java.lang.String[])
-comment2.params=x\ s1\ s2\ s3
-comment2.target=double\ areaHeron(double,\ int,\ int,\ int)
+comment2.params=s\ s1\ s2\ s3
+comment2.target=double\ areaHeron(double,\ double,\ double,\ double)
 comment3.params=x\ y\ z
 comment3.target=double\ centroid(int,\ int,\ int)
 comment4.params=A\ b
-comment4.target=double\ height(double,\ int)
+comment4.target=double\ height(double,\ double)
 comment5.params=s1\ s2\ s3
-comment5.target=double\ perimieter(int,\ int,\ int)
+comment5.target=double\ perimeter(double,\ double,\ double)
 numComments=6
