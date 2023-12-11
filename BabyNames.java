@@ -2,7 +2,7 @@
 /**
  * Name/Programmer: Andrew Hernandez
  * Date: October 19, 2023
- * Assignment: Assignment: 2.8.8 BabyNames
+ * Assignment: Assignment: 2.8.8 Baby Names
  * Purpose: Using String methods & creating custom methods
  */
 
@@ -42,7 +42,7 @@ public class BabyNames
             ", and "+allLower(string3)+".");
         System.out.println();
             
-        System.out.println("The lowercase representation of the names"+
+        System.out.println("The usual case representation of the names"+
             "\nyou entered are "+firstUpper(string1)+", "+firstUpper(string2)+
             ", and "+firstUpper(string3)+".");
         System.out.println();
@@ -70,20 +70,20 @@ public class BabyNames
         // Ending statement
         System.out.println();
         System.out.println("**************************************************");
-        System.out.println("Ending Assignment <2.8.8>: BabyNames");
+        System.out.println("Ending Assignment <2.8.8>: Baby Names");
     }
     
-    // allLower; Converts a string to all lower case.
+    // allLower; Converts a string into all lower case and returns it.
     // Accepts string input for string.
     public static String allLower(String string) {
         return string.toLowerCase();
     }
-    // allLower; Converts a the first character of a string into uppercase.
+    // firstUpper; Converts the first character of a string into uppercase and returns the full string.
     // Accepts string input for string.
     public static String firstUpper(String string) {
         return string.substring(0,1).toUpperCase()+string.substring(1);
     }
-    // allLower; Returns a string of all possible combinations of 3 inputted strings.
+    // allPossibles; Returns a string containing all possible combinations of 3 inputted strings.
     // Accepts string input for string1, string2, string3.
     public static String allPossibles(String string1, String string2, String string3) {
         return "All possible combinations of baby names based"+

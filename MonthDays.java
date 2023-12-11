@@ -48,8 +48,8 @@ public class MonthDays
         System.out.println("**************************************************");
         System.out.println("Ending Assignment <2.8.9>: Days in a Month");
     }
-    //
-    //
+    // Compares an inputted string to a list of months and returns a boolean.
+    // Accepts string input for string.
     public static boolean isValidMonth(String string) {
         for (int i=0;i<months.length;i++) {
            if (string.equals(months[i])) {
@@ -59,7 +59,7 @@ public class MonthDays
        
        return false;
     }
-    // allLower; Converts a the first character of a string into uppercase.
+    // allLower; Converts the first character of a string into uppercase and returns the full string.
     // Accepts string input for string.
     public static String firstUpper(String string) {
         return string.substring(0,1).toUpperCase()+string.substring(1);

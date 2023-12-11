@@ -2,7 +2,7 @@
 /**
  * Name/Programmer: Andrew Hernandez
  * Date: October 17, 2023
- * Assignment: Assignment: 2.8.7 FirstLast2
+ * Assignment: Assignment: 2.8.7 First and Last, Part 2
  * Purpose: Using String methods & creating custom methods.
  */
 
@@ -14,7 +14,7 @@ public class FirstLast2
         // Output Header Information
         System.out.println("\nName/Programmer: Andrew Hernandez");
         System.out.println("Date: 10/17/23");
-        System.out.println("Assignment: 2.8.7 FirstLast2");
+        System.out.println("Assignment: 2.8.7 First and Last, Part 2");
         System.out.println("Purpose: Using String methods & creating custom");
         System.out.println("\tmethods");
         System.out.println();
@@ -47,10 +47,11 @@ public class FirstLast2
         // Ending statement
         System.out.println();
         System.out.println("**************************************************");
-        System.out.println("Ending Assignment <2.8.7>: FirstLast2");
+        System.out.println("Ending Assignment <2.8.7>: First and Last, Part 2");
     }
     
-    // testChars; Compares the first and last characters of two strings respectively.
+    // testChars; Compares the first and last characters of two strings
+    // and returns whether or not they are the same in the form of a boolean.
     // Accepts string input for string1 and string2.
     public static boolean testChars(String string1, String string2) {
         return string1.substring(0,1).equals(string2.substring(string2.length()-1,string2.length()));
