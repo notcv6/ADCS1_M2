@@ -1,6 +1,0 @@
-#BlueJ class context
-comment0.target=AsciiArt
-comment0.text=\r\n\ \r\n\ Name/Programmer\:\ Andrew\ Hernandez\r\n\ Date\:\ 8/15/2023\r\n\ Assignment\:\ 2.1.3\:\ AsciiArt\r\n\ Purpose\:\ To\ generate\ an\ ASCII\ Art.\r\n\ \r\n
-comment1.params=args
-comment1.target=void\ main(java.lang.String[])
-numComments=2
