@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=BabyNames
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=string
+comment2.target=java.lang.String\ allLower(java.lang.String)
+comment3.params=string
+comment3.target=java.lang.String\ firstUpper(java.lang.String)
+comment4.params=string1\ string2\ string3
+comment4.target=java.lang.String\ allPossibles(java.lang.String,\ java.lang.String,\ java.lang.String)
+numComments=5
