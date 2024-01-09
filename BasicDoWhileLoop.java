@@ -24,19 +24,19 @@ public class BasicDoWhileLoop
         int lower = 0;
         int counter = 0;
         
-        // 
+        // Print output
         System.out.println("The single numeric digits in ascending order: ");
         do {
             System.out.println("\t"+counter);
             counter++;
         } while (counter <= upper);
+        
         System.out.println("The single numeric digits in descending order: ");
         counter--;
         do {
             System.out.println("\t"+counter);
             counter--;
         } while (counter >= lower);
-        // 
         
         // Ending statement
         System.out.println();

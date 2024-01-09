@@ -1,7 +1,7 @@
 #BlueJ class context
-comment0.target=AveragingDigits
+comment0.target=CountingOddDigits
 comment1.params=args
 comment1.target=void\ main(java.lang.String[])
 comment2.params=integer
-comment2.target=double\ averageDigits(int)
+comment2.target=int\ countOddDigits(int)
 numComments=3

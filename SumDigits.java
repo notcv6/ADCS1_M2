@@ -23,7 +23,7 @@ public class SumDigits
         Scanner keyboard = new Scanner(System.in);
         int input;
         
-        //
+        // Print output
         do {
             System.out.print("Enter a non-zero, positive integer: ");
             input = keyboard.nextInt();
@@ -36,8 +36,10 @@ public class SumDigits
         // Ending statement
         System.out.println();
         System.out.println("**************************************************");
-        System.out.println("Ending Assignment <3.8.3>: Sum Digits");
+        System.out.println("Ending Assignment <3.8.4>: Sum Digits");
     }
+    // sumDigits; Returns the sum of all of the digits in a given integer.
+    // integer: Accepts an integer.
     public static int sumDigits(int integer) {
         int temp = 0;
         while (integer > 0) {

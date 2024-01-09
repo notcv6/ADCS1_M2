@@ -1,9 +1,8 @@
-
 /**
  * Name/Programmer: Andrew Hernandez
- * Date: October 2, 2023
- * Assignment: Assignment: 2.0.0 Template
- * Purpose: Make sure our template is correct
+ * Date: October x, x
+ * Assignment: Assignment: 3.x.x Template
+ * Purpose: 
  */
 
 import java.util.Scanner;
@@ -13,10 +12,9 @@ public class Template
     {
         // Output Header Information
         System.out.println("\nName/Programmer: Andrew Hernandez");
-        System.out.println("Date: ");
-        System.out.println("Assignment: ");
+        System.out.println("Date: October x, x");
+        System.out.println("Assignment: 3.x.x ");
         System.out.println("Purpose: ");
-        System.out.println("");
         System.out.println("");
         System.out.println();
         System.out.println("**************************************************");
@@ -26,11 +24,10 @@ public class Template
         
         // 
         
-        // 
         
         // Ending statement
         System.out.println();
         System.out.println("**************************************************");
-        System.out.println("Ending Assignment <#.#.#>: ");
+        System.out.println("Ending Assignment <3.#.#>: ");
     }
 }

@@ -24,7 +24,7 @@ public class BasicWhileLoop
         int lower = 0;
         int counter = 0;
         
-        // 
+        // Print output
         System.out.println("The single numeric digits in ascending order: ");
         while (counter <= upper) {
             System.out.println("\t"+counter);
@@ -37,7 +37,6 @@ public class BasicWhileLoop
             System.out.println("\t"+counter);
             counter--;
         }
-        // 
         
         // Ending statement
         System.out.println();
