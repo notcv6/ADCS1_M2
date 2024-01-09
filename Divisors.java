@@ -39,28 +39,40 @@ public class Divisors
         System.out.println("**************************************************");
         System.out.println("Ending Assignment <3.8.7>: Divisors");
     }
-    // countEvenDigits; Returns the number of odd digits in a given integer.
+    // determineDivisors; Determines the divisors of a given integer and returns them as a string.
     // integer; Accepts an integer.
     public static String determineDivisors (int integer) {
-        ArrayList myList = new ArrayList();
         String string = "";
         int x = 0;
-        
-        for (int i = 1;i<integer+1;i++) {
-            if (integer % i == 0) {
-                myList.add(i);
-            }
-        }
-        for (int i = 0;i<myList.size();i++) {
-            
+        int i = 1;
+        do {
             if (x == 5) {
                 string = string.concat("\n");
                 x = 0;
             } else {
-                string = string.concat("\t"+myList.get(i));
-                x++;
+                if (integer % i == 0) {
+                    string = string.concat("\t"+i);
+                    x++;
+                }
             }
-        }
-        return string;
+        } while (i<integer+1);
+
+        //ArrayList myList = new ArrayList();
+        //for (int i = 1;i<integer+1;i++) {
+        //    if (integer % i == 0) {
+        //        myList.add(i);
+        //    }
+        //}
+        //for (int i = 0;i<myList.size();i++) {
+        //    
+        //    if (x == 5) {
+        //        string = string.concat("\n");
+        //        x = 0;
+        //    } else {
+        //        string = string.concat("\t"+myList.get(i));
+        //        x++;
+        //    }
+        //}
+        //return string;
     }
 }
