@@ -22,21 +22,21 @@ public class BasicDoWhileLoop
         // Variable declarations
         int upper = 9;
         int lower = 0;
-        int counter = 0;
+        int i = 0;
+        int x = 9;
         
         // Print output
         System.out.println("The single numeric digits in ascending order: ");
         do {
-            System.out.println("\t"+counter);
-            counter++;
-        } while (counter <= upper);
+            System.out.println("\t"+i);
+            i++;
+        } while (i <= upper);
         
         System.out.println("The single numeric digits in descending order: ");
-        counter--;
         do {
-            System.out.println("\t"+counter);
-            counter--;
-        } while (counter >= lower);
+            System.out.println("\t"+x);
+            x--;
+        } while (x >= lower);
         
         // Ending statement
         System.out.println();

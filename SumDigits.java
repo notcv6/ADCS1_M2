@@ -15,8 +15,8 @@ public class SumDigits
         System.out.println("\nName/Programmer: Andrew Hernandez");
         System.out.println("Date: 1/5/24");
         System.out.println("Assignment: 3.8.4 Sum Digits");
-        System.out.println("Purpose: Learning and understanding while loops.");
-        System.out.println();
+        System.out.println("Purpose: Practice writing while and do-while");
+        System.out.println("\tloops.");
         System.out.println("**************************************************");
         
         // Variable declarations
@@ -27,8 +27,8 @@ public class SumDigits
         do {
             System.out.print("Enter a non-zero, positive integer: ");
             input = keyboard.nextInt();
-            System.out.println("There is/are "+sumDigits(input)
-                +" digit(s) in "+input);
+            System.out.println("The sum of the digits in "+input
+                +" is "+sumDigits(input));
         } while (input > 0);
         System.out.println("A zero or negative number was entered, "
             +"\tprogram ending. ");

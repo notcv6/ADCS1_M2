@@ -22,20 +22,20 @@ public class BasicWhileLoop
         // Variable declarations
         int upper = 9;
         int lower = 0;
-        int counter = 0;
+        int i = 0;
+        int x = 9;
         
         // Print output
         System.out.println("The single numeric digits in ascending order: ");
-        while (counter <= upper) {
-            System.out.println("\t"+counter);
-            counter++;
+        while (i <= upper) {
+            System.out.println("\t"+i);
+            i++;
         }
         
         System.out.println("The single numeric digits in descending order: ");
-        counter--;
-        while (counter >= lower) {
-            System.out.println("\t"+counter);
-            counter--;
+        while (x >= lower) {
+            System.out.println("\t"+x);
+            x--;
         }
         
         // Ending statement

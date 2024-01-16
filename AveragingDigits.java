@@ -15,15 +15,15 @@ public class AveragingDigits
         System.out.println("\nName/Programmer: Andrew Hernandez");
         System.out.println("Date: 1/5/24");
         System.out.println("Assignment: 3.8.5 Averaging Digits");
-        System.out.println("Purpose: Learning and understanding while loops.");
-        System.out.println();
+        System.out.println("Purpose: Practice writing while and do-while");
+        System.out.println("loops.");
         System.out.println("**************************************************");
         
         // Variable declarations
         Scanner keyboard = new Scanner(System.in);
         int input;
         
-        //
+        // Output statement
         do {
             System.out.print("Enter a non-zero, positive integer: ");
             input = keyboard.nextInt();
