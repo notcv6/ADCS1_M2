@@ -30,27 +30,29 @@ public class LetterRemover
         do {
             System.out.print("Enter a string: ");
             input = keyboard.nextLine();
-            System.out.print("Enter the character to be removed: ");
-            character = keyboard.nextLine();
-            System.out.println("The string "+input+" with the letter "
-                +character+" removed is: "+remove(input, character));
-        } while (input != "");
-        System.out.println("An empty string was entered, program ending.");
+            if (input.equals("")) {
+                System.out.println("An empty string was entered, program ending.");
+                
+            } else {
+                System.out.print("Enter the character to be removed: ");
+                character = keyboard.nextLine();
+                System.out.println("The string "+input+" with the letter "
+                    +character+" removed is: "+remove(input, character));
+            }
+        } while (input.equals("") == false);
         
         // Ending statement
         System.out.println();
         System.out.println("**************************************************");
         System.out.println("Ending Assignment <3.8.12>: LetterRemover");
     }
-    // determineDivisors; Determines the divisors of a given integer and returns them as a string.
-    // integer; Accepts an integer.
+    // 
+    // 
     public static String remove (String input, String character) {
         String temp = input;
-        int i = 0;
         do {
-            temp = temp.substring(temp.indexOf(character)+1, temp.length());
-            i++;
-        } while (i<input.length());
+            temp = temp.substring(0, temp.indexOf(character))+temp.substring(temp.indexOf(character)+1, temp.length());
+        } while (temp.indexOf(character) != -1);
 
         return temp;
     }
