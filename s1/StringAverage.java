@@ -1,3 +1,5 @@
+package s1;
+
 
 /**
  * Name/Programmer: Andrew Hernandez
