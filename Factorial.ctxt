@@ -3,5 +3,5 @@ comment0.target=Factorial
 comment1.params=args
 comment1.target=void\ main(java.lang.String[])
 comment2.params=integer
-comment2.target=int\ factorialIt(int)
+comment2.target=long\ factorialIt(int)
 numComments=3

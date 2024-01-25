@@ -43,11 +43,10 @@
      // boxIt; Accepts an integer and returns a box containing the numbers in
      // reversing order.
      // integer; Accepts integer input.
-     public static int factorialIt(int integer) {
-        int n = 0;
-        int x = 0;
-        for (int i=integer;i>0;i--) {
-            x = i*(i-n);
+     public static long factorialIt(int integer) {
+        long x = integer;
+        for (int i=integer-1;i>0;i--) {
+            x = x*i;
         }
         return x;
      }
