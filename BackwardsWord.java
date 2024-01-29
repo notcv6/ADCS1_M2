@@ -34,8 +34,7 @@ public class BackwardsWord
                     +input.substring(input.length()-1,input.length())
                     +"\n\tthe middle letter is: "
                     +input.substring(middleIndex(input),middleIndex(input)+1)
-                    +"\n\tthe string backwards is: "
-                    +getBackwards(input));
+                    +"\n\tthe string backwards is: "+getBackwards(input));
             }
             System.out.println("");
         } while (!input.equals(""));
@@ -46,11 +45,9 @@ public class BackwardsWord
         System.out.println("Ending Assignment <3.9.12>: Backwards Word");
     }
     public static String getBackwards(String string) {
-        String character = string;
         String temp = "";
-        for (int i = 0;i<string.length();i++) {
-            temp.concat();
-            full = full.substring(full.length()-1,full.length());
+        for (int i = string.length();i>0;i--) {
+            temp.concat(string.substring(i-1,i));
         }
         return temp;
     }
