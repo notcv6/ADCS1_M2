@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=BackwardsWord
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=string
+comment2.target=java.lang.String\ getBackwards(java.lang.String)
+comment3.params=string
+comment3.target=int\ middleIndex(java.lang.String)
+numComments=4

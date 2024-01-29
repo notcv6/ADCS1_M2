@@ -50,9 +50,9 @@ public class LetterRemover
     // 
     public static String remove (String input, String character) {
         String temp = input;
-        do {
+        while (temp.indexOf(character) != -1) {
             temp = temp.substring(0, temp.indexOf(character))+temp.substring(temp.indexOf(character)+1, temp.length());
-        } while (temp.indexOf(character) != -1);
+        }
 
         return temp;
     }

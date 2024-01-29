@@ -27,27 +27,30 @@ public class Powers
         
         //
         do {
-            System.out.print("Enter a non-zero, positive integer: ");
+            System.out.print("Enter a positive integer: ");
             input = keyboard.nextInt();
-            System.out.println("2 to the power of "+input
+            if (input >= 0) {
+                System.out.println("2 to the power of "+input
                 +" is "+two2Power(input));
-        } while (input > 0);
-        System.out.println("A zero or negative number was entered, "
-            +"\tprogram ending. ");
+            }
+            System.out.println();
+        } while (input >= 0);
+        System.out.println("A negative number was entered, program ending.");
         
         // Ending statement
         System.out.println();
         System.out.println("**************************************************");
         System.out.println("Ending Assignment <3.8.12>: Powers");
     }
-    // determineDivisors; Determines the divisors of a given integer and returns them as a string.
+    // 
     // integer; Accepts an integer.
     public static int two2Power (int integer) {
         int x = 1;
         int i = 0;
-        do {
+        while (i<integer) {
             x = 2*x;
-        } while (i<integer);
+            i++;
+        } 
         return x;
     }
 }
