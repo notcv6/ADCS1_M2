@@ -6,6 +6,7 @@
  */
 
 import java.util.Scanner;
+import s1.MiddleLetter;
 public class BackwardsWord
 {
     public static void main(String[] args)
@@ -33,7 +34,8 @@ public class BackwardsWord
                     +"\n\tthe last letter is: "
                     +input.substring(input.length()-1,input.length())
                     +"\n\tthe middle letter is: "
-                    +input.substring(middleIndex(input),middleIndex(input)+1)
+                    +input.substring(MiddleLetter.middleIndex(input)
+                        ,MiddleLetter.middleIndex(input)+1)
                     +"\n\tthe string backwards is: "+getBackwards(input));
             }
             System.out.println("");
@@ -47,12 +49,8 @@ public class BackwardsWord
     public static String getBackwards(String string) {
         String temp = "";
         for (int i = string.length();i>0;i--) {
-            temp.concat(string.substring(i-1,i));
+            temp = temp.concat(string.substring(i-1,i));
         }
         return temp;
-    }
-    
-    public static int middleIndex (String string) {
-        return Math.round(string.length()/2);
     }
 }

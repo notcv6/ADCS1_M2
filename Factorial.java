@@ -2,7 +2,7 @@
 /**
  * Name/Programmer: Andrew Hernandez
  * Date: 1/18/24
- * Assignment: 3.9.4 Factorial
+ * Assignment: 3.9.5 Factorial
  * Purpose: Learning and understanding for loops.
  */
 
@@ -14,7 +14,7 @@
          // Output Header Information
          System.out.println("\nName/Programmer: Andrew Hernandez");
          System.out.println("Date: 1/18/24");
-         System.out.println("Assignment: 3.9.4 Factorial");
+         System.out.println("Assignment: 3.9.5 Factorial");
          System.out.println("Purpose: Learning and understanding for loops.");
          System.out.println("");
          System.out.println("**************************************************");
@@ -38,7 +38,7 @@
          // Ending statement
          System.out.println();
          System.out.println("**************************************************");
-         System.out.println("Ending Assignment <3.9.4>: Factorial");
+         System.out.println("Ending Assignment <3.9.5>: Factorial");
      }
      // boxIt; Accepts an integer and returns a box containing the numbers in
      // reversing order.
