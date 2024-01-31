@@ -1,20 +1,19 @@
 /**
  * Name/Programmer: Andrew Hernandez
  * Date: 1/29/24
- * Assignment: 3.9.12 Backwards Word
+ * Assignment: 3.9.11 Decreasing Word
  * Purpose: Practice writing for loops.
  */
 
 import java.util.Scanner;
-import s1.MiddleLetter;
-public class BackwardsWord
+public class DecreasingWord
 {
     public static void main(String[] args)
     {
         // Output Header Information
         System.out.println("\nName/Programmer: Andrew Hernandez");
         System.out.println("Date: 1/29/24");
-        System.out.println("Assignment: 3.9.12 Backwards Word ");
+        System.out.println("Assignment: 3.9.11 Decreasing Word ");
         System.out.println("Purpose: Practice writing for loops.");
         System.out.println();
         System.out.println("**************************************************");
@@ -28,32 +27,22 @@ public class BackwardsWord
             System.out.print("Enter a string, empty string to end: ");
             input = keyboard.nextLine();
             if (!input.equals("")) {
-                System.out.print("For the string "+input
-                    +"\n\tthe first letter is: "
-                    +input.substring(0,1)
-                    +"\n\tthe last letter is: "
-                    +input.substring(input.length()-1,input.length())
-                    +"\n\tthe middle letter is: "
-                    +input.substring(MiddleLetter.middleIndex(input)
-                        ,MiddleLetter.middleIndex(input)+1)
-                    +"\n\tthe string backwards is: "+getBackwards(input));
+                System.out.println("The string "+input+" decreased is: ");
+                decreaseIt(input);
             }
             System.out.println("");
         } while (!input.equals(""));
         System.out.println("An empty string was entered, program ending.");
-
         // Ending statement
         System.out.println();
         System.out.println("**************************************************");
-        System.out.println("Ending Assignment <3.9.12>: Backwards Word");
+        System.out.println("Ending Assignment <3.9.11>: Decreasing Word");
     }
-    // getBackwards; Accepts string input and prints it in reverse order.
+    // decreaseIt; Accepts a string input and prints it decreasing the letters each time.
     // Accepts string input for string.
-    public static String getBackwards(String string) {
-        String temp = "";
+    public static void decreaseIt(String string) {
         for (int i = string.length();i>0;i--) {
-            temp = temp.concat(string.substring(i-1,i));
+            System.out.println("\t"+string.substring(0,i));
         }
-        return temp;
     }
 }

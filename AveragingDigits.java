@@ -16,7 +16,7 @@ public class AveragingDigits
         System.out.println("Date: 1/5/24");
         System.out.println("Assignment: 3.8.5 Averaging Digits");
         System.out.println("Purpose: Practice writing while and do-while");
-        System.out.println("loops.");
+        System.out.println("\tloops.");
         System.out.println("**************************************************");
         
         // Variable declarations

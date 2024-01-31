@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=CoolNumbers
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=input
+comment2.target=java.lang.Boolean\ isCool(int)
+comment3.params=input
+comment3.target=int\ countCoolNumbers(int)
+numComments=4

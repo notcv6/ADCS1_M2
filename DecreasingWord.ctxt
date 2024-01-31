@@ -1,7 +1,7 @@
 #BlueJ class context
-comment0.target=BackwardsWord
+comment0.target=DecreasingWord
 comment1.params=args
 comment1.target=void\ main(java.lang.String[])
 comment2.params=string
-comment2.target=java.lang.String\ getBackwards(java.lang.String)
+comment2.target=void\ decreaseIt(java.lang.String)
 numComments=3

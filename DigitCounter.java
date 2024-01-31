@@ -16,7 +16,7 @@ public class DigitCounter
         System.out.println("Date: 1/3/24");
         System.out.println("Assignment: 3.8.3 Digit Counter");
         System.out.println("Purpose: Practice writing while and do-while");
-        System.out.println("loops.");
+        System.out.println("\tloops.");
         System.out.println("**************************************************");
         
         // Variable declarations
