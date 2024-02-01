@@ -46,13 +46,11 @@ public class Prime
     //  3, 4, 5, and 6 and returns a boolean.
     // Accepts an integer for input.
     public static Boolean isPrime(int input) {
-        for (int i=1;i<input;i++) {
-            if (input/i == 1 || input/i == input) {
-                
-            } else {
+        for (int i=2;i<input;i++) {
+            if (input%i == 0) {
                 return false;
             }
         }
-        return false;
+        return true;
     }
 }
