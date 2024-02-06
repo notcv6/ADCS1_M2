@@ -1,8 +1,8 @@
 #BlueJ package file
-editor.fx.0.height=0
-editor.fx.0.width=0
-editor.fx.0.x=0
-editor.fx.0.y=0
+editor.fx.0.height=739
+editor.fx.0.width=816
+editor.fx.0.x=552
+editor.fx.0.y=100
 objectbench.height=76
 objectbench.width=761
 package.divider.horizontal=0.6
@@ -189,7 +189,7 @@ target6.showInterface=false
 target6.type=ClassTarget
 target6.width=120
 target6.x=350
-target6.y=500
+target6.y=510
 target7.height=70
 target7.name=PerfectNumber
 target7.showInterface=false
