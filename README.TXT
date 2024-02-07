@@ -1,4 +1,4 @@
-git clone https://github.com/notcv6/ADCS1_M2.git
+xgit clone https://github.com/notcv6/ADCS1_M2.git
 
                                                                                                     
                                                                                                     
