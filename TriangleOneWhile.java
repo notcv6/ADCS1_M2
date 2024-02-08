@@ -27,30 +27,33 @@ public class TriangleOneWhile
 
         // Program outputs
         
-        do {
+        while (!contString.equals("N")) {
+            contString = "";
             System.out.print("Enter a number: ");
             repeatCount = keyboard.nextInt();
             keyboard.nextLine();
             System.out.print("Enter a letter (or character): ");
             charInput = keyboard.nextLine();
             System.out.println("");
-            
-            String tempString = "";
+
             int i = 0;
+            String temp = "";
             while (i<repeatCount) {
-                tempString = tempString.concat(charInput);
-                System.out.println("\t"+tempString);
+                temp = temp.concat(charInput);
+                System.out.println("\t"+temp);
                 i++;
             }
-            
-            while (!contString.equals("N") || !contString.equals("Y")) {
-                System.out.print("\nDo you want to continue? [Y, N]: ");
-                contString.equals()
-                if (keyboard.nextLine().equals("Y")) {
+
+            do {
+                System.out.print("\nDo you want to continue? [Y/N]: ");
+                contString = keyboard.nextLine();
+                if (!contString.equals("Y") || !contString.equals("N")) {
                     
-                } else if (keyboard.nextLine()
-            }
-        } while (!contString.equals("N"));
+                } else {
+                    System.out.println("Unrecognized input, please try again...");
+                }
+            } while (!contString.equals("Y") || !contString.equals("N"));
+        }
 
         // Ending statement
         System.out.println();
@@ -58,3 +61,9 @@ public class TriangleOneWhile
         System.out.println("Ending Assignment <3.10.3>: Triangle One While");
     }
 }
+
+// t / f / t or b
+// 1 / 0 / 1
+// 1 / 1 / 1
+// 0 / 1 / 1
+// 0 / 0 / 0
