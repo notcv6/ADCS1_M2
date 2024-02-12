@@ -41,13 +41,15 @@ public class TriangleOneFor
                 System.out.println("\t"+tempString);
             }
             
-            System.out.print("\nDo you want to continue? [Y, N]: ");
-            if (keyboard.nextLine().indexOf("N") == -1) {
-                contString = "Y";
-            } else {
-                contString = "N";
-            }
-        } while (!contString.equals("N"));
+            do {
+                System.out.print("\nDo you want to continue? [Y/N]: ");
+                contString = keyboard.nextLine();
+                System.out.println(contString.equals("Y"));
+                if (!contString.equals("Y") && !contString.equals("N")) {
+                    System.out.println("Unrecognized input, please try again...");
+                }
+            } while (!contString.equals("Y") && !contString.equals("N"));
+        } while (contString.indexOf("N") == -1);
 
         // Ending statement
         System.out.println();
