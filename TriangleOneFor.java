@@ -41,6 +41,8 @@ public class TriangleOneFor
                 System.out.println("\t"+tempString);
             }
             
+
+            
             do {
                 System.out.print("\nDo you want to continue? [Y/N]: ");
                 contString = keyboard.nextLine();
@@ -57,3 +59,4 @@ public class TriangleOneFor
         System.out.println("Ending Assignment <3.10.3>: Triangle One For");
     }
 }
+

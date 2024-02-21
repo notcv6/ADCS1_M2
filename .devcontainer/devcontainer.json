@@ -3,7 +3,7 @@
 	"features": {
 		"ghcr.io/devcontainers/features/desktop-lite:1": {
 			"webport": "6080",
-			"runArgs": ["--shm-size-2g"]
+			"runArgs": ["--shm-size-2g", "--init"]
 		}
 	},
 	"forwardPorts": [6080],
