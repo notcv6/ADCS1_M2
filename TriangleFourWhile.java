@@ -1,19 +1,19 @@
 /**
  * Name/Programmer: Andrew Hernandez
- * Date: 2/8/24
- * Assignment: Assignment: 3.10.8 Triangle Three While
+ * Date: 2/12/24
+ * Assignment: Assignment: 3.10.10 Triangle Four While
  * Purpose: Learning and understanding the mechanics of nested while loops. 
  */
 
 import java.util.Scanner;
-public class TriangleThreeWhile
+public class TriangleFourWhile
 {
     public static void main(String[] args)
     {
         // Output Header Information
         System.out.println("\nName/Programmer: Andrew Hernandez");
-        System.out.println("Date: 2/8/24");
-        System.out.println("Assignment: 3.10.8 Triangle Three While");
+        System.out.println("Date: 2/12/24");
+        System.out.println("Assignment: 3.10.10 Triangle Four While");
         System.out.println("Purpose: Learning and understanding the ");
         System.out.println("\tmechanics of nested while loops. ");
         System.out.println();
@@ -54,7 +54,6 @@ public class TriangleThreeWhile
             do {
                 System.out.print("\nDo you want to continue? [Y/N]: ");
                 contString = keyboard.nextLine();
-                System.out.println(contString.equals("Y"));
                 if (!contString.equals("Y") && !contString.equals("N")) {
                     System.out.println("Unrecognized input, please try again...");
                 }
@@ -64,7 +63,7 @@ public class TriangleThreeWhile
         // Ending statement
         System.out.println();
         System.out.println("**************************************************");
-        System.out.println("Ending Assignment <3.10.8>: Triangle Three While");
+        System.out.println("Ending Assignment <3.10.10>: Triangle Four While");
     }
 }
 

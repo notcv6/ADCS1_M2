@@ -49,7 +49,6 @@ public class TriangleThreeWhile
             do {
                 System.out.print("\nDo you want to continue? [Y/N]: ");
                 contString = keyboard.nextLine();
-                System.out.println(contString.equals("Y"));
                 if (!contString.equals("Y") && !contString.equals("N")) {
                     System.out.println("Unrecognized input, please try again...");
                 }
