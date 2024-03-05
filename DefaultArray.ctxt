@@ -1,5 +1,6 @@
 #BlueJ class context
 comment0.target=DefaultArray
+comment0.text=\r\n\ Name/Programmer\:\ Andrew\ Hernandez\r\n\ Date\:\ March\ 1,\ 2024\r\n\ Assignment\:\ 4.1.1\ Default\ Array\r\n\ Purpose\:\ Introduction\ to\ Arrays\r\n
 comment1.params=args
 comment1.target=void\ main(java.lang.String[])
 numComments=2

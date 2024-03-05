@@ -19,10 +19,10 @@ public class PrepopulatedArray
         
         // Variable declarations
         int[] myArray = {12, 14, 13, 15, 3, 66, 88, 43, 21, 98, 77, 13};
-        double average = (myArray[0]+myArray[myArray.length/2]+myArray[myArray.length-1])/3;
-        int first = myArray[0];
-        int middle = myArray[myArray.length/2];
-        int last = myArray[myArray.length-1];
+        double first = myArray[0];
+        double middle = myArray[myArray.length/2];
+        double last = myArray[myArray.length-1];
+        double average = (first+middle+last)/3;
 
         // 
         System.out.println("\nThe length of my array is: "+myArray.length);
@@ -30,9 +30,12 @@ public class PrepopulatedArray
         System.out.println("\nThe first element of my array is: "+first);
         System.out.println("\nThe middle element of my array is: "+middle);
         System.out.println("\nThe last element of my array is: "+last);
-        System.out.printf("\nThe average of the first, middle, and last elements is: %.2f", average);
-        System.out.printf("\nThe first element, %.2f, is "+greaterLesser(first, middle)+" than the middle element, %.2f", first, middle);
-        System.out.printf("\nThe middle element, %.2f, is "+greaterLesser(middle, last)+" than the last element, %.2f", middle, last);
+        System.out.printf("\nThe average of the first, middle, "
+            +"and last elements is: %.2f", average);
+        System.out.printf("\nThe first element, %.2f, is "+greaterLesser(first, middle)
+            +" than the middle element, %.2f", first, middle);
+        System.out.printf("\nThe middle element, %.2f, is "+greaterLesser(middle, last)
+            +" than the last element, %.2f", middle, last);
         // Ending statement
         System.out.println();
         System.out.println("**************************************************");
