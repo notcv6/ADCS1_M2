@@ -6,7 +6,7 @@
  */
 
 import java.util.Scanner;
-public class TriplesFor
+public class TriplesWhile
 {
     public static void main(String[] args)
     {

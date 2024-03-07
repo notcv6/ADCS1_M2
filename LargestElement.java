@@ -48,7 +48,8 @@ public class LargestElement
                 largestElement = array[i];
             }
         }
-        System.out.printf("\nThe largest random number found is: %.2f", largestElement);
+        System.out.printf("\nThe largest random number found is: %.2f"
+            , largestElement);
         // Ending statement
         System.out.println();
         System.out.println("**************************************************");
