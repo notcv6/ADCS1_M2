@@ -41,8 +41,8 @@ public class NameAndNumber
             firstNames[i] = keyboard.nextLine();
             System.out.print("Enter the person's last name: ");
             lastNames[i] = keyboard.nextLine();
-            System.out.print("Enter the person's phone number (no spaces or "
-                +"\n\tdashes): ");
+            System.out.print("Enter the person's phone number (no spaces"
+                +" or \n\tdashes): ");
             phoneNumbers[i] = keyboard.nextLine();
         }
         
@@ -52,7 +52,8 @@ public class NameAndNumber
         // Loop through every index and print out the values at each array
         for (int i = 0; i < arraySize; i++) {
             System.out.print("\t"); // Starting every new line with a tab
-            System.out.print(firstNames[i] + "\t" + lastNames[i] + "\t" + phoneNumbers[i]); // Print values separated by tabs
+            System.out.print(firstNames[i] + "\t" + lastNames[i] + "\t" 
+                + phoneNumbers[i]); // Print values separated by tabs
             System.out.println(); // Move to the next line
         }
 
@@ -64,14 +65,19 @@ public class NameAndNumber
             System.out.print("\t"); // Starting every new line with a tab
             
             // Format firstName and lastName
-            String formattedFirstName = firstNames[i].substring(0, 1).toUpperCase() + firstNames[i].substring(1).toLowerCase();
-            String formattedLastName = lastNames[i].substring(0, 1).toUpperCase() + lastNames[i].substring(1).toLowerCase();
+            String formattedFirstName = firstNames[i].substring(0, 1).toUpperCase()
+                +firstNames[i].substring(1).toLowerCase();
+            String formattedLastName = lastNames[i].substring(0, 1).toUpperCase()
+                +lastNames[i].substring(1).toLowerCase();
             
             // Print formatted values separated by space
             System.out.print(formattedFirstName + " " + formattedLastName);
             
             // Format phoneNumber
-            String formattedPhoneNumber = "(" + phoneNumbers[i].substring(0, 3) + ") " + phoneNumbers[i].substring(3, 6) + "-" + phoneNumbers[i].substring(6);
+            String formattedPhoneNumber = "(" 
+                + phoneNumbers[i].substring(0, 3)
+                +") "+phoneNumbers[i].substring(3, 6)
+                +"-"+phoneNumbers[i].substring(6);
             
             // Print formatted phoneNumber
             System.out.print("\t" + formattedPhoneNumber);
