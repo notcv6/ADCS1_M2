@@ -12,7 +12,7 @@ public class ForEachTraversal
         // Output Header Information
         System.out.println("\nName/Programmer: Andrew Hernandez");
         System.out.println("Date: March 22, 2024");
-        System.out.println("Assignment: 4.3.2 Largest Element");
+        System.out.println("Assignment: 4.3.2 For-Each Traversal");
         System.out.println("Purpose: Traversing Arrays with the for-each loop");
         System.out.println();
         System.out.println("**************************************************");
@@ -42,7 +42,7 @@ public class ForEachTraversal
         }
         System.out.println();
 
-        // Find the largest element
+        // Find the For-Each Traversal
         double largestElement = array[0];
         for (double element : array) {
             if (element > largestElement) {
@@ -70,6 +70,6 @@ public class ForEachTraversal
         // Ending statement
         System.out.println();
         System.out.println("**************************************************");
-        System.out.println("Ending Assignment <4.3.2> Largest Element");
+        System.out.println("Ending Assignment <4.3.2> For-Each Traversal");
     }
 }

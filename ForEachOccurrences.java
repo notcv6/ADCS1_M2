@@ -26,19 +26,59 @@ public class ForEachOccurrences
             array[i] = (int)(Math.random()*12)+1;
         }
 
-        // Print out contents of array
-        for (int i = 0; i < size; i++) {
-            // Check if it is the start of a new line
-            if (i % 15 == 0) {
-                System.out.print("\t");
-            }
-            System.out.print(array[i]);
-            // Check if we need to print a new line
-            if ((i + 1) % 15 == 0) {
+        // Print out the contents of the array with 15 numbers per line
+        int count = 0;
+        for (int num : array) {
+            System.out.print(num + " ");
+            count++;
+            if (count % 15 == 0) {
                 System.out.println();
             }
         }
         
+        // Determine the occurrence of each number in the array
+        int[] occurrences = new int[12];
+        for (int num : array) {
+            occurrences[num - 1]++;
+        }
+
+        // Print the occurrence of each number
+        System.out.println("\nOccurrences of each number:");
+        for (int i = 0; i < occurrences.length; i++) {
+            System.out.println("Number " + (i + 1) + ": " + occurrences[i]);
+        }
+
+        // Determine the maximum occurrence
+        int maxOccurrences = 0;
+        int maxIndex = -1;
+        for (int i = 0; i < occurrences.length; i++) {
+            if (occurrences[i] > maxOccurrences) {
+                maxOccurrences = occurrences[i];
+                maxIndex = i;
+            }
+        }
+
+        // Print the number with the maximum occurrence
+        if (maxIndex != -1) {
+            System.out.println("\nMost frequently occurring number:");
+            System.out.println("Number " + (maxIndex + 1));
+        }
+
+        // Determine the minimum occurrence
+        int minOccurrences = Integer.MAX_VALUE;
+        int minIndex = -1;
+        for (int i = 0; i < occurrences.length; i++) {
+            if (occurrences[i] < minOccurrences) {
+                minOccurrences = occurrences[i];
+                minIndex = i;
+            }
+        }
+
+        // Print the number with the minimum occurrence
+        if (minIndex != -1) {
+            System.out.println("\nLeast frequently occurring number:");
+            System.out.println("Number " + (minIndex + 1));
+        }
         // Ending statement
         System.out.println();
         System.out.println("**************************************************");

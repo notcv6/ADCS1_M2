@@ -29,7 +29,7 @@ public class ForEachPopulatedArray
             if (i % 5 == 0) {
                 System.out.print("\t");
             }
-            System.out.printf("%.2f  ", numbers[i]);
+            System.out.printf("%.1f  ", numbers[i]);
             // Check if we need to print a new line
             if ((i + 1) % 5 == 0) {
                 System.out.println();
