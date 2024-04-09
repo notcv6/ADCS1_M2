@@ -1,7 +1,7 @@
 /**
  * Name/Programmer: Andrew Hernandez
  * Date: April 3, 2024
- * Assignment: 5.2.3 ArrayList Intro, Pt. 3
+ * Assignment: 5.2.4 ArrayList Intro, Pt. 4
  * Purpose: Introduction to ArrayLists
  */
 
@@ -14,7 +14,7 @@ public class ArrayListIntroPt4
         // Print out the header information.
         System.out.println("\nName/Programmer: Andrew Hernandez");
         System.out.println("Date: April 3, 2024");
-        System.out.println("Assignment: 5.2.3 ArrayList Intro, Pt. 3");
+        System.out.println("Assignment: 5.2.4 ArrayList Intro, Pt. 4");
         System.out.println("Purpose: Introduction to ArrayLists");
         System.out.println();
         System.out.println("**************************************************");
@@ -74,15 +74,21 @@ public class ArrayListIntroPt4
         printArray(numbers);
 
         // Traverse the ArrayList, counting the occurrence of each number 0-6.
-        
+        int[] count = new int[7];
+        for (int i = 0; i < numbers.size(); i++) {
+            count[numbers.get(i)]++;
+        }
 
         // Print out the number of occurrences of each number 0-6.
-        
+        System.out.println();
+        for (int i = 0; i < count.length; i++) {
+            System.out.println(i + " occurs " + count[i] + " times in the ArrayList.");
+        }
 
         // Output the ending statement.
         System.out.println();
         System.out.println("**************************************************");
-        System.out.println("Ending Assignment <5.2.3>: ArrayList Intro, Pt. 3");
+        System.out.println("Ending Assignment <5.2.4>: ArrayList Intro, Pt. 4");
     }
 
     // Prints out the contents of ArrayList, with 10 numbers per line.
