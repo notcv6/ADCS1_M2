@@ -39,6 +39,7 @@ public class TriangleWordFor
                 String line = reversedTmp + wordInput;
 
                 for (int i = 0; i < wordInput.length(); i++) {
+                    System.out.print("\t");
                     for (int j = 0; j < line.length(); j++) {
                         if (i + 1 == wordInput.length() || Math.abs(j - line.length()/2) == i) {
                             System.out.print(line.charAt(j));
@@ -51,6 +52,7 @@ public class TriangleWordFor
                 System.out.println();
             }
         } while (wordInput != "");
+        System.out.println("Empty string detected, program ending.");
         
         // Ending statement
         System.out.println();
