@@ -2,4 +2,12 @@
 comment0.target=ArraysDemo2DPt2
 comment1.params=args
 comment1.target=void\ main(java.lang.String[])
-numComments=2
+comment2.params=arr
+comment2.target=void\ printIt(int[][])
+comment3.params=arr
+comment3.target=double\ gridSum(int[][])
+comment4.params=arr\ row
+comment4.target=double\ rowSum(int[][],\ int)
+comment5.params=arr\ col
+comment5.target=double\ colSum(int[][],\ int)
+numComments=6

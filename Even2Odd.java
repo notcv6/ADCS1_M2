@@ -55,20 +55,4 @@ public class Even2Odd
         System.out.println("Ending Assignment <5.2.5>: Summing Values Greater");
         System.out.println("\tThan the Last");
     }
-
-    public static void printIt(ArrayList<Integer> numbers) {
-        // Print out the Array
-        System.out.println();
-        System.out.println(numbers);
-
-        // Print the distance between the first even number and the last odd number
-        System.out.println("Distance between first even number and last odd number: " + distance(numbers));
-
-    }
-
-    public static int distance(Arraylist<integer> numbers) {
-        // Return the distance between the first even number and the last odd number
-        return lastOdd(numbers) - firstEven(numbers);
-
-    }
 }

@@ -55,9 +55,11 @@ public class ArraysDemo2DPt1
                 sum += arr[row][col];
             }
         }
-        System.out.printf("\nThe sum of the values in the grid is: %.2f", sum);
+        System.out.printf("\nThe sum of the values in the grid is: %.2f"
+            , sum);
         // Average the values within the matrix
-        System.out.printf("\nThe average of the values in the grid is: %.2f", sum / (ROWS * COLS));
+        System.out.printf("\nThe average of the values in the grid is: %.2f"
+            , sum / (ROWS * COLS));
 
         // Information by row
         System.out.println("\n");
@@ -70,8 +72,10 @@ public class ArraysDemo2DPt1
             for (int col=0; col<arr[row].length; col++) {
                 sum += arr[row][col];
             }
-            System.out.printf("\nThe sum of the values in row[" + row + "] is: %.2f", sum);
-            System.out.printf("\nThe average of the values in row[" + row + "] is: %.2f", sum / COLS);
+            System.out.printf("\nThe sum of the values in row[" + row 
+                + "] is: %.2f", sum);
+            System.out.printf("\nThe average of the values in row[" + row 
+                + "] is: %.2f", sum / COLS);
         }
 
         // Information by column
@@ -85,8 +89,10 @@ public class ArraysDemo2DPt1
             for (int row=0; row<ROWS; row++) {
                 sum += arr[row][col];
             }
-            System.out.printf("\nThe sum of the values in col[" + col + "] is: %.2f", sum);
-            System.out.printf("\nThe average of the values in col[" + col + "] is: %.2f", sum / ROWS);
+            System.out.printf("\nThe sum of the values in col[" + col 
+                + "] is: %.2f", sum);
+            System.out.printf("\nThe average of the values in col[" + col 
+                + "] is: %.2f", sum / ROWS);
         }
 
         // Output the ending statement.

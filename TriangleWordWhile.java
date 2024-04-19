@@ -41,7 +41,9 @@ public class TriangleWordWhile
                 String line = reversedTmp + wordInput;
 
                 i = 0;
+                
                 while (i < wordInput.length()) {
+                    System.out.print("\t");
                     int j = 0;
                     while (j < line.length()) {
                         if (i + 1 == wordInput.length() || Math.abs(j - line.length()/2) == i) {
@@ -57,6 +59,7 @@ public class TriangleWordWhile
                 System.out.println();
             }
         } while (!wordInput.isEmpty());
+        System.out.println("Empty string detected, program ending.");
         
         // Ending statement
         System.out.println();

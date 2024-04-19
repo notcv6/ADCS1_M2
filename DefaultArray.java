@@ -18,14 +18,19 @@ public class DefaultArray
         System.out.println("**************************************************");
         
         // Variable declarations
-        int[] myArray = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15};
+        int[] myArray = new int[15];
 
         // 
-        System.out.println("\nThe length of my array is: "+myArray.length);
-        System.out.println("\nThe last index of my array is: "+(myArray.length-1));
-        System.out.println("\nThe first element of my array is: "+myArray[0]);
-        System.out.println("\nThe middle index of my array is: "+myArray[myArray.length/2]);
-        System.out.println("\nThe last index of my array is: "+myArray[myArray.length-1]);
+        System.out.println("\nThe length of my array is: "
+            +myArray.length);
+        System.out.println("\nThe last index of my array is: "
+            +(myArray.length-1));
+        System.out.println("\nThe first element of my array is: "
+            +myArray[0]);
+        System.out.println("\nThe middle index of my array is: "
+            +myArray[myArray.length/2]);
+        System.out.println("\nThe last index of my array is: "
+            +myArray[myArray.length-1]);
         
 
         // Ending statement
