@@ -6,7 +6,7 @@
  */
 
  import java.util.Scanner;
- public class ArraysDemo2DPt2
+ public class Distances
  {
      public static void main(String[] args)
      {
@@ -27,10 +27,10 @@
                         {3, 3}, 
                         {4, 2}, 
                         {4, -0.5}};
-         
-        // Traverse the array and print out the coordinates.
-        for (int row=0; row<arr.length; row++) {
-            System.out.print("(" + arr[row][0] + ", " + arr[row][1] + ") ");
+
+        //
+        for (int row=0;row<arr.length;row++) {
+            int x = 0;
         }
 
         // Output the ending statement.
@@ -38,6 +38,12 @@
         System.out.println("**************************************************");
         System.out.println("Ending Assignment <6.1.2>: Intro to 2D Arrays, Pt. 2");
      }
-
-    // 
  }
+
+ public static void printIt(double[][] arr) {
+    for (int row=0; row<arr.length; row++) {
+        System.out.print("(" + arr[row][0] + ", " + arr[row][1] + ") ");
+    }
+ }
+
+ public static double distance(double)
