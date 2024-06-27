@@ -1,6 +1,6 @@
 
 /**
- * Name/Programmer: Andrew Hernandez
+ * Name/Programmer: I love Kotoha
  * Date: 1/3/24
  * Assignment: Assignment: 3.8.1 Basic While Loop
  * Purpose:  Learning and understanding while loops.
@@ -12,7 +12,7 @@ public class BasicWhileLoop
     public static void main(String[] args)
     {
         // Output Header Information
-        System.out.println("\nName/Programmer: Andrew Hernandez");
+        System.out.println("\nName/Programmer: I love Kotoha");
         System.out.println("Date: 1/3/24");
         System.out.println("Assignment: 3.8.1 Basic While Loop");
         System.out.println("Purpose: Learning and understanding while loops.");

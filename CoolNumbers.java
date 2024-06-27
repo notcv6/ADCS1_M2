@@ -1,5 +1,5 @@
 /**
- * Name/Programmer: Andrew Hernandez
+ * Name/Programmer: I love Kotoha
  * Date: 1/25/24
  * Assignment: 3.9.10 Count Cool Numbers
  * Purpose: Practice writing for loops.
@@ -11,7 +11,7 @@ public class CoolNumbers
     public static void main(String[] args)
     {
         // Output Header Information
-        System.out.println("\nName/Programmer: Andrew Hernandez");
+        System.out.println("\nName/Programmer: I love Kotoha");
         System.out.println("Date: 1/25/24");
         System.out.println("Assignment: 3.9.10 Count Cool Numbers ");
         System.out.println("Purpose: Practice writing for loops.");

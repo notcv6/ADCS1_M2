@@ -1,5 +1,5 @@
 /**
- * Name/Programmer: Andrew Hernandez
+ * Name/Programmer: I love Kotoha
  * Date: April 25, 2024
  * Assignment: 6.1.4 Pitching Pennies
  * Purpose: Learn how to use 2D arrays.
@@ -11,7 +11,7 @@
      public static void main(String[] args)
      {
         // Print out the header information.
-        System.out.println("\nName/Programmer: Andrew Hernandez");
+        System.out.println("\nName/Programmer: I love Kotoha");
         System.out.println("Date: April 25, 2024");
         System.out.println("Assignment: 6.1.4 Pitching Pennies");
         System.out.println("Purpose: Learn how to use 2D arrays.");

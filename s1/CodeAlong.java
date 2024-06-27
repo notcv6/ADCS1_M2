@@ -2,7 +2,7 @@ package s1;
 
 /**
  * 
- * Name/Programmer: Andrew Hernandez
+ * Name/Programmer: I love Kotoha
  * Date: 8/25/2023
  * Assignment: 2.3.0: CodeAlong
  * Purpose: Code along to learn about input.
@@ -15,7 +15,7 @@ public class CodeAlong
 {
     // Output header information.
     public static void main(String[]args) {
-        System.out.println("\nName/Programmer: Andrew Hernandez" 
+        System.out.println("\nName/Programmer: I love Kotoha" 
             + "\nDate: 8/25/2023" 
             + "\nAssignment: 2.3.0: CodeAlong" 
             + "\nPurpose: Code along to learn about input."

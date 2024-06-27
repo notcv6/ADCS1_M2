@@ -1,5 +1,5 @@
 /**
- * Name/Programmer: Andrew Hernandez
+ * Name/Programmer: I love Kotoha
  * Date: 2/2/24
  * Assignment: Assignment: 3.10.1 Basic Nested For Loop
  * Purpose: Learning and understanding the mechanics of nested for loops. 
@@ -11,7 +11,7 @@ public class BasicNestedForLoop
     public static void main(String[] args)
     {
         // Output Header Information
-        System.out.println("\nName/Programmer: Andrew Hernandez");
+        System.out.println("\nName/Programmer: I love Kotoha");
         System.out.println("Date: 2/2/24");
         System.out.println("Assignment: 3.10.1 Basic Nested For Loop");
         System.out.println("Purpose: Learning and understanding the ");

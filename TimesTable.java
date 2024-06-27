@@ -1,5 +1,5 @@
 /**
- * Name/Programmer: Andrew Hernandez
+ * Name/Programmer: I love Kotoha
  * Date: 1/31/24
  * Assignment: Assignment: 3.10.0 Times Table Demonstration
  * Purpose: 
@@ -11,7 +11,7 @@ public class TimesTable
     public static void main(String[] args)
     {
         // Output Header Information
-        System.out.println("\nName/Programmer: Andrew Hernandez");
+        System.out.println("\nName/Programmer: I love Kotoha");
         System.out.println("Date: 1/31/24");
         System.out.println("Assignment: 3.10.0 Times Table Demonstration ");
         System.out.println("Purpose: ");

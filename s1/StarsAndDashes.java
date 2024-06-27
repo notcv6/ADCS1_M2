@@ -2,7 +2,7 @@ package s1;
 
 /**
  * 
- * Name/Programmer: Andrew Hernandez
+ * Name/Programmer: I love Kotoha
  * Date: November 27, 2023
  * Assignment: 3.2.2 Stars and Dashes
  * Purpose: Review of Methods
@@ -16,7 +16,7 @@ public class StarsAndDashes
     // Output header information.
     public static void main(String[]args) {
         // Opening statement.
-        System.out.println("Name/Programmer: Andrew Hernandez"
+        System.out.println("Name/Programmer: I love Kotoha"
             + "\nDate: November 27, 2023"
             + "\nAssignment: 3.2.2 Stars and Dashes"
             + "\nPurpose: Review of Methods"

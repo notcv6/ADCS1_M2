@@ -1,5 +1,5 @@
 /**
- * Name/Programmer: Andrew Hernandez
+ * Name/Programmer: I love Kotoha
  * Date: October x, x
  * Assignment: Assignment: 3.x.x Template
  * Purpose: 
@@ -11,7 +11,7 @@ public class Template
     public static void main(String[] args)
     {
         // Output Header Information
-        System.out.println("\nName/Programmer: Andrew Hernandez");
+        System.out.println("\nName/Programmer: I love Kotoha");
         System.out.println("Date: October x, x");
         System.out.println("Assignment: 3.x.x ");
         System.out.println("Purpose: ");

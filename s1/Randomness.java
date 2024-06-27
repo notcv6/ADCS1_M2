@@ -2,7 +2,7 @@ package s1;
 
 /**
  * 
- * Name/Programmer: Andrew Hernandez
+ * Name/Programmer: I love Kotoha
  * Date: 9/18/2023
  * Assignment: 3.1.2: Randomness
  * Purpose: To better understand random numbers.
@@ -16,7 +16,7 @@ public class Randomness
     // Output header information.
     public static void main(String[]args) {
         // Opening statement.
-        System.out.println("Name/Programmer: Andrew Hernandez"
+        System.out.println("Name/Programmer: I love Kotoha"
             + "\nDate: 9/18/23"
             + "\nAssignment: 3.1.2 Randomness"
             + "\nPurpose: To better understand random numbers "

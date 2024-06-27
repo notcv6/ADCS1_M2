@@ -1,5 +1,5 @@
 /**
- * Name/Programmer: Andrew Hernandez
+ * Name/Programmer: I love Kotoha
  * Date: 2/8/24
  * Assignment: Assignment: 3.10.8 Triangle Three While
  * Purpose: Learning and understanding the mechanics of nested while loops. 
@@ -11,7 +11,7 @@ public class TriangleThreeWhile
     public static void main(String[] args)
     {
         // Output Header Information
-        System.out.println("\nName/Programmer: Andrew Hernandez");
+        System.out.println("\nName/Programmer: I love Kotoha");
         System.out.println("Date: 2/8/24");
         System.out.println("Assignment: 3.10.8 Triangle Three While");
         System.out.println("Purpose: Learning and understanding the ");

@@ -2,7 +2,7 @@ package s1;
 
 /**
  * 
- * Name/Programmer: Andrew Hernandez
+ * Name/Programmer: I love Kotoha
  * Date: 8/31/2023
  * Assignment: 2.3.5: Remainder
  * Purpose: To perform operations using modulus.
@@ -16,7 +16,7 @@ public class Remainder
     // Output header information.
     public static void main(String[]args) {
         // Opening statement.
-        System.out.println("Name/Programmer: Andrew Hernandez"
+        System.out.println("Name/Programmer: I love Kotoha"
             + "\nDate: 8/31/2023"
             + "\nAssignment: 2.3.5: Remainder"
             + "\nPurpose: To perform operations using modulus."

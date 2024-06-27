@@ -2,7 +2,7 @@ package s1;
 
 
 /**
- * Name/Programmer: Andrew Hernandez
+ * Name/Programmer: I love Kotoha
  * Date: October 4, 2023
  * Assignment: 2.8.1: String Stuff
  * Purpose: To learn about Strings
@@ -14,7 +14,7 @@ public class StringStuff
     public static void main(String[] args)
     {
         // Output Header Information
-        System.out.println("\nName/Programmer: Andrew Hernandez");
+        System.out.println("\nName/Programmer: I love Kotoha");
         System.out.println("Date: October 4, 2023");
         System.out.println("Assignment: 2.8.1: String Stuff");
         System.out.println("Purpose: To learn about Strings");
@@ -23,11 +23,11 @@ public class StringStuff
         
         // Variable declarations
         Scanner keyboard = new Scanner(System.in);
-        String firstName = "Andrew";
-        String lastName = "Hernandez";
-        String schoolName = "SWCTA";
+        String firstName = "Miyako";
+        String lastName = "Kujou";
+        String schoolName = "Hakusen";
         String yearName = "junior";
-        String mySchool = "Southwest Career and Technical Academy";
+        String mySchool = "Hakusen Academy";
 
         String fullName = "";
         String tempString = "";
@@ -39,9 +39,9 @@ public class StringStuff
         String t = "";
         String a = "";
 
-        String str1 = "SWCTA";
-        String str2 = "SWCTA";
-        String str3 = new String("SWCTA");
+        String str1 = "Hakusen";
+        String str2 = "Hakusen";
+        String str3 = new String("Hakusen");
         String str4 = "SECTA";
 
         // Demonstrate concatenation

@@ -1,6 +1,6 @@
 /**
  * 
- * Name/Programmer: Andrew Hernandez
+ * Name/Programmer: I love Kotoha
  * Date: 8/23/2023
  * Assignment: 2.2.3: Calculations
  * Purpose: To solve some calculations.
@@ -11,7 +11,7 @@ public class Calculations
 {
     // Output header information.
     public static void main(String[]args) {
-        System.out.println("\nName/Programmer: Andrew Hernandez" 
+        System.out.println("\nName/Programmer: I love Kotoha" 
             + "\nDate: 8/23/2023" 
             + "\nAssignment: 2.2.3: Calculations" 
             + "\nPurpose: To solve some calculations."

@@ -1,5 +1,5 @@
 /**
- * Name/Programmer: Andrew Hernandez
+ * Name/Programmer: I love Kotoha
  * Date: March 22, 2024
  * Assignment: 4.3.1 For-Each Prepopulated Array
  * Purpose: Traversing Arrays with the for-each loop
@@ -11,7 +11,7 @@ public class ForEachPopulatedArray
     public static void main(String[] args)
     {
         // Output Header Information
-        System.out.println("\nName/Programmer: Andrew Hernandez");
+        System.out.println("\nName/Programmer: I love Kotoha");
         System.out.println("Date: March 22, 2024");
         System.out.println("Assignment: 4.3.1 For-Each Prepopulated Array");
         System.out.println("Purpose: Traversing Arrays with the for-each loop");

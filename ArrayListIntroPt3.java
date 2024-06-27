@@ -1,5 +1,5 @@
 /**
- * Name/Programmer: Andrew Hernandez
+ * Name/Programmer: I love Kotoha
  * Date: April 3, 2024
  * Assignment: 5.2.3 ArrayList Intro, Pt. 3
  * Purpose: Introduction to ArrayLists
@@ -12,7 +12,7 @@ public class ArrayListIntroPt3
     public static void main(String[] args)
     {
         // Print out the header information.
-        System.out.println("\nName/Programmer: Andrew Hernandez");
+        System.out.println("\nName/Programmer: I love Kotoha");
         System.out.println("Date: April 3, 2024");
         System.out.println("Assignment: 5.2.3 ArrayList Intro, Pt. 3");
         System.out.println("Purpose: Introduction to ArrayLists");

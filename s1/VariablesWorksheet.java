@@ -2,7 +2,7 @@ package s1;
 
 /**
  * 
- * Name/Programmer: Andrew Hernandez
+ * Name/Programmer: I love Kotoha
  * Date: 8/23/2023
  * Assignment: 2.2.2 VariablesWorksheet: 
  * Purpose: To learn from the mistakes from VariablesWorksheet.
@@ -13,7 +13,7 @@ public class VariablesWorksheet
 {
     // Output header information.
     public static void main(String[]args) {
-        System.out.println("\nName/Programmer: Andrew Hernandez" 
+        System.out.println("\nName/Programmer: I love Kotoha" 
             + "\nDate: 8/23/2023" 
             + "\nAssignment: 2.2.2 VariablesWorksheet" 
             + "\nPurpose: To learn from the mistakes from VariablesWorksheet."

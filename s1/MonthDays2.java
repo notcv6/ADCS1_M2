@@ -2,7 +2,7 @@ package s1;
 
 
 /**
- * Name/Programmer: Andrew Hernandez
+ * Name/Programmer: I love Kotoha
  * Date: October 19, 2023
  * Assignment: 2.8.9 MonthDays2
  * Purpose: Using String methods & creating custom methods
@@ -18,7 +18,7 @@ public class MonthDays2
     public static void main(String[] args)
     {
         // Output Header Information
-        System.out.println("\nName/Programmer: Andrew Hernandez");
+        System.out.println("\nName/Programmer: I love Kotoha");
         System.out.println("Date: October 19, 2023");
         System.out.println("Assignment: 2.8.9 Days in a Month");
         System.out.println("Purpose: Using String methods & creating custom");

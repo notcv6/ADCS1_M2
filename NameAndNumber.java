@@ -1,5 +1,5 @@
 /**
- * Name/Programmer: Andrew Hernandez
+ * Name/Programmer: I love Kotoha
  * Date: March 7, 2024
  * Assignment: 4.2.5 Name And Number
  * Purpose: Traversing & Printing Arrays
@@ -11,7 +11,7 @@ public class NameAndNumber
     public static void main(String[] args)
     {
         // Output Header Information
-        System.out.println("\nName/Programmer: Andrew Hernandez");
+        System.out.println("\nName/Programmer: I love Kotoha");
         System.out.println("Date: March 7, 2024");
         System.out.println("Assignment: 4.2.5 Name And Number");
         System.out.println("Purpose: Traversing & Printing Arrays");
@@ -29,8 +29,8 @@ public class NameAndNumber
         firstNames[0] = "john";
         lastNames[0] = "doe";
         phoneNumbers[0] = "0000000000";
-        firstNames[1] = "andrew";
-        lastNames[1] = "hernandez";
+        firstNames[1] = "Miyako";
+        lastNames[1] = "Kujou";
         phoneNumbers[1] = "1234567890";
         
         System.out.println("");

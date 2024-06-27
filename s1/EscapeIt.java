@@ -2,7 +2,7 @@ package s1;
 
 /**
  * 
- * Name/Programmer: Andrew Hernandez
+ * Name/Programmer: I love Kotoha
  * Date: 8/15/2023
  * Assignment: 2.1.0: EscapeIt part 2
  * Purpose: To generate a template for future use.
@@ -13,7 +13,7 @@ public class EscapeIt
 {
     // Output header information.
     public static void main(String[]args) {
-        System.out.println("\nName/Programmer: Andrew Hernandez" 
+        System.out.println("\nName/Programmer: I love Kotoha" 
             + "\nDate: 8/15/2023" 
             + "\nAssignment: 2.1.4: EscapeIt part 2" 
             + "\nPurpose: To generate a template for future use."

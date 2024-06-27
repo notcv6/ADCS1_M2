@@ -1,6 +1,6 @@
 
 /**
- * Name/Programmer: Andrew Hernandez
+ * Name/Programmer: I love Kotoha
  * Date: 1/9/24
  * Assignment: Assignment: 3.8.8 LetterRemover
  * Purpose:  Practice writing while and do-while loops.
@@ -14,7 +14,7 @@ public class LetterRemover
     public static void main(String[] args)
     {
         // Output Header Information
-        System.out.println("\nName/Programmer: Andrew Hernandez");
+        System.out.println("\nName/Programmer: I love Kotoha");
         System.out.println("Date: 1/11/24");
         System.out.println("Assignment: 3.8.11 LetterRemover");
         System.out.println("Purpose: Practice writing while and do-while");

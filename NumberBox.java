@@ -1,6 +1,6 @@
 
 /**
- * Name/Programmer: Andrew Hernandez
+ * Name/Programmer: I love Kotoha
  * Date: 1/18/24
  * Assignment: 3.9.4 Number Box
  * Purpose: Learning and understanding for loops.
@@ -12,7 +12,7 @@ public class NumberBox
     public static void main(String[] args)
     {
         // Output Header Information
-        System.out.println("\nName/Programmer: Andrew Hernandez");
+        System.out.println("\nName/Programmer: I love Kotoha");
         System.out.println("Date: 1/18/24");
         System.out.println("Assignment: 3.9.4 Number Box");
         System.out.println("Purpose: Learning and understanding for loops.");

@@ -1,5 +1,5 @@
 /**
- * Name/Programmer: Andrew Hernandez
+ * Name/Programmer: I love Kotoha
  * Date: 1/29/24
  * Assignment: 3.9.12 Backwards Word
  * Purpose: Practice writing for loops.
@@ -12,7 +12,7 @@ public class BackwardsWord
     public static void main(String[] args)
     {
         // Output Header Information
-        System.out.println("\nName/Programmer: Andrew Hernandez");
+        System.out.println("\nName/Programmer: I love Kotoha");
         System.out.println("Date: 1/29/24");
         System.out.println("Assignment: 3.9.12 Backwards Word ");
         System.out.println("Purpose: Practice writing for loops.");

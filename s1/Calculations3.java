@@ -2,7 +2,7 @@ package s1;
 
 /**
  * 
- * Name/Programmer: Andrew Hernandez
+ * Name/Programmer: I love Kotoha
  * Date: 9/22/2023
  * Assignment: 2.3.4: Calculations3
  * Purpose: To learn how to create methods by solving calculations.
@@ -15,7 +15,7 @@ public class Calculations3
 {
     // Output header information.
     public static void main(String[]args) {
-        System.out.println("\nName/Programmer: Andrew Hernandez" 
+        System.out.println("\nName/Programmer: I love Kotoha" 
             + "\nDate: 9/22/2023" 
             + "\nAssignment: 3.2.1: Calculations3" 
             + "\nPurpose: To learn how to create methods by solving calculations."

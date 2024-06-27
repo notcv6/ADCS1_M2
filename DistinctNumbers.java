@@ -1,5 +1,5 @@
 /**
- * Name/Programmer: Andrew Hernandez
+ * Name/Programmer: I love Kotoha
  * Date: March 7, 2024
  * Assignment: 4.2.4 Distinct Numbers
  * Purpose: Traversing & Printing Arrays
@@ -10,7 +10,7 @@ public class DistinctNumbers
     public static void main(String[] args)
     {
         // Output Header Information
-        System.out.println("\nName/Programmer: Andrew Hernandez");
+        System.out.println("\nName/Programmer: I love Kotoha");
         System.out.println("Date: March 7, 2024");
         System.out.println("Assignment: 4.2.4 Distinct Numbers");
         System.out.println("Purpose: Traversing & Printing Arrays");

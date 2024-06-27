@@ -2,7 +2,7 @@ package s1;
 
 
 /**
- * Name/Programmer: Andrew Hernandez
+ * Name/Programmer: I love Kotoha
  * Date: October 13, 2023
  * Assignment: Assignment: 2.8.2 FirstLast
  * Purpose: Using String methods & creating custom methods.
@@ -14,7 +14,7 @@ public class FirstLast
     public static void main(String[] args)
     {
         // Output Header Information
-        System.out.println("\nName/Programmer: Andrew Hernandez");
+        System.out.println("\nName/Programmer: I love Kotoha");
         System.out.println("Date: 10/13/23");
         System.out.println("Assignment: 2.8.2 FirstLast");
         System.out.println("Purpose: Using String methods & creating custom");

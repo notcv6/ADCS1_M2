@@ -2,7 +2,7 @@ package s1;
 
 
 /**
- * Name/Programmer: Andrew Hernandez
+ * Name/Programmer: I love Kotoha
  * Date: November 27, 2023
  * Assignment: 3.2.3: Slope of a Line
  * Purpose: Review of Methods
@@ -14,7 +14,7 @@ public class LineSlope
     public static void main(String[] args)
     {
         // Output Header Information
-        System.out.println("\nName/Programmer: Andrew Hernandez");
+        System.out.println("\nName/Programmer: I love Kotoha");
         System.out.println("Date: November 27, 2023");
         System.out.println("Assignment: 3.2.3: Slope of a Line");
         System.out.println("Purpose: Review of Methods");

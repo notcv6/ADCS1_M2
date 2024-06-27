@@ -1,5 +1,5 @@
 /**
- * Name/Programmer: Andrew Hernandez
+ * Name/Programmer: I love Kotoha
  * Date: May 2, 2024
  * Assignment: 7.1.2 Classes & Objects Introduction
  * Purpose: Introduction to Classes & Objects
@@ -10,7 +10,7 @@ public class PersonDriver2
     public static void main(String[] args)
     {
         // Output Header Information
-        System.out.println("\nName/Programmer: Andrew Hernandez");
+        System.out.println("\nName/Programmer: I love Kotoha");
         System.out.println("Date: May 2, 2024");
         System.out.println("Assignment: 7.1.2 Classes & Objects Introduction");
         System.out.println("Purpose: Introduction to Classes & Objects");
@@ -18,8 +18,8 @@ public class PersonDriver2
         System.out.println("**************************************************");
         
         // Variable declarations
-        Person2 me = new Person2("Andrew", "Hernandez", 17
-            , "Southwest Career & Technical Academy", "Digital Game Design"
+        Person2 me = new Person2("Miyako", "Kujou", 17
+            , "Hakusen Academy", "Digital Game Design"
             , 2025);
         Person2 person = new Person2();
 

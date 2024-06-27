@@ -2,7 +2,7 @@ package s1;
 
 
 /**
- * Name/Programmer: Andrew Hernandez
+ * Name/Programmer: I love Kotoha
  * Date: October 2, 2023
  * Assignment: Assignment: 2.8.3 Average Length of Two Strings
  * Purpose: Using String methods & creating custom methods.
@@ -14,7 +14,7 @@ public class StringAverage
     public static void main(String[] args)
     {
         // Output Header Information
-        System.out.println("\nName/Programmer: Andrew Hernandez");
+        System.out.println("\nName/Programmer: I love Kotoha");
         System.out.println("Date: 10/13/23");
         System.out.println("Assignment: 2.8.3 Average Length of Two Strings");
         System.out.println("Purpose: Using String methods & creating custom");

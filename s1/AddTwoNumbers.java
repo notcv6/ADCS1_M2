@@ -2,7 +2,7 @@ package s1;
 
 /**
  * 
- * Name/Programmer: Andrew Hernandez
+ * Name/Programmer: I love Kotoha
  * Date: 9/20/2023
  * Assignment: 3.2.0 CodeAlong
  * Purpose: To generate a template for future use.
@@ -16,7 +16,7 @@ public class AddTwoNumbers
     // Output header information.
     public static void main(String[]args) {
         // Opening statement.
-        System.out.println("Name/Programmer: Andrew Hernandez"
+        System.out.println("Name/Programmer: I love Kotoha"
             + "\nDate: 9/20/23"
             + "\nAssignment: 3.2.0 CodeAlong"
             + "\nPurpose: "

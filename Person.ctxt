@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=Person
-comment0.text=\r\n\ Name/Programmer\:\ Andrew\ Hernandez\r\n\ Date\:\ April\ 30,\ 2024\r\n\ Assignment\:\ 7.1.1\ Classes\ &\ Objects\ Introduction\r\n\ Purpose\:\ Introduction\ to\ Classes\ &\ Objects\r\n
+comment0.text=\r\n\ Name/Programmer\:\ Miyako\ Kujou\r\n\ Date\:\ April\ 30,\ 2024\r\n\ Assignment\:\ 7.1.1\ Classes\ &\ Objects\ Introduction\r\n\ Purpose\:\ Introduction\ to\ Classes\ &\ Objects\r\n
 comment1.params=fn\ ln\ ag\ sc\ pg\ yr
 comment1.target=Person(java.lang.String,\ java.lang.String,\ int,\ java.lang.String,\ java.lang.String,\ int)
 comment10.params=a

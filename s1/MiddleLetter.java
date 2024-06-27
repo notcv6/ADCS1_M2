@@ -2,7 +2,7 @@ package s1;
 
 
 /**
- * Name/Programmer: Andrew Hernandez
+ * Name/Programmer: I love Kotoha
  * Date: October 17, 2023
  * Assignment: Assignment: 2.8.4 MiddleLetter
  * Purpose: Using String methods & creating custom methods
@@ -14,7 +14,7 @@ public class MiddleLetter
     public static void main(String[] args)
     {
         // Output Header Information
-        System.out.println("\nName/Programmer: Andrew Hernandez");
+        System.out.println("\nName/Programmer: I love Kotoha");
         System.out.println("Date: October 17, 2023");
         System.out.println("Assignment: 2.8.4 MiddleLetter");
         System.out.println("Purpose: Using String methods & creating custom");

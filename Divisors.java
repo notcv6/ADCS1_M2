@@ -1,6 +1,6 @@
 
 /**
- * Name/Programmer: Andrew Hernandez
+ * Name/Programmer: I love Kotoha
  * Date: 1/9/24
  * Assignment: Assignment: 3.8.8 Divisors
  * Purpose:  Practice writing while and do-while loops.
@@ -14,7 +14,7 @@ public class Divisors
     public static void main(String[] args)
     {
         // Output Header Information
-        System.out.println("\nName/Programmer: Andrew Hernandez");
+        System.out.println("\nName/Programmer: I love Kotoha");
         System.out.println("Date: 1/9/24");
         System.out.println("Assignment: 3.8.8 Divisors");
         System.out.println("Purpose: Learning and understanding while loops.");

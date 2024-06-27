@@ -1,5 +1,5 @@
 /**
- * Name/Programmer: Andrew Hernandez
+ * Name/Programmer: I love Kotoha
  * Date: April 30, 2024
  * Assignment: 7.1.1 Classes & Objects Introduction
  * Purpose: Introduction to Classes & Objects

@@ -2,7 +2,7 @@ package s1;
 
 
 /**
- * Name/Programmer: Andrew Hernandez
+ * Name/Programmer: I love Kotoha
  * Date: November 29, 2023
  * Assignment: Assignment: 3.2.6: Triangle Madness
  * Purpose: Review & practice writing methods
@@ -14,7 +14,7 @@ public class TriangleMadness
     public static void main(String[] args)
     {
         // Output Header Information
-        System.out.println("\nName/Programmer: Andrew Hernandez");
+        System.out.println("\nName/Programmer: I love Kotoha");
         System.out.println("Date: November 29, 2023");
         System.out.println("Assignment: 3.2.6: Triangle Madness");
         System.out.println("Purpose: Review & practice writing methods");

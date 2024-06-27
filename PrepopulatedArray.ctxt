@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=PrepopulatedArray
-comment0.text=\r\n\ Name/Programmer\:\ Andrew\ Hernandez\r\n\ Date\:\ March\ 1,\ 2024\r\n\ Assignment\:\ 4.1.2\ Prepopulated\ Array\r\n\ Purpose\:\ Introduction\ to\ Arrays\r\n
+comment0.text=\r\n\ Name/Programmer\:\ Miyako\ Kujou\r\n\ Date\:\ March\ 1,\ 2024\r\n\ Assignment\:\ 4.1.2\ Prepopulated\ Array\r\n\ Purpose\:\ Introduction\ to\ Arrays\r\n
 comment1.params=args
 comment1.target=void\ main(java.lang.String[])
 comment2.params=num1\ num2

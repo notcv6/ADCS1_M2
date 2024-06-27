@@ -2,7 +2,7 @@ package s1;
 
 
 /**
- * Name/Programmer: Andrew Hernandez
+ * Name/Programmer: I love Kotoha
  * Date: October 2, 2023
  * Assignment: Assignment: 2.0.0 asd Check
  * Purpose: Make sure our template is correct
@@ -14,7 +14,7 @@ public class OneWayIf
     public static void main(String[] args)
     {
         // Output Header Information
-        System.out.println("\nName/Programmer: Andrew Hernandez");
+        System.out.println("\nName/Programmer: I love Kotoha");
         System.out.println("Date: October 2, 2023");
         System.out.println("Assignment: 2.0.0: asd Check");
         System.out.println("Purpose: The purpose of this program is to make ");

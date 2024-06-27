@@ -1,5 +1,5 @@
 /**
- * Name/Programmer: Andrew Hernandez
+ * Name/Programmer: I love Kotoha
  * Date: March 5, 2024
  * Assignment: 4.2.1 Multiples of Ten
  * Purpose: Traversing & Printing Arrays
@@ -11,7 +11,7 @@ public class MultiplesOf10
     public static void main(String[] args)
     {
         // Output Header Information
-        System.out.println("\nName/Programmer: Andrew Hernandez");
+        System.out.println("\nName/Programmer: I love Kotoha");
         System.out.println("Date: March 5, 2024");
         System.out.println("Assignment: 4.2.1 Multiples of Ten");
         System.out.println("Purpose: Traversing & Printing Arrays");

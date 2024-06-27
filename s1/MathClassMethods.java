@@ -2,7 +2,7 @@ package s1;
 
 /**
  * 
- * Name/Programmer: Andrew Hernandez
+ * Name/Programmer: I love Kotoha
  * Date: x/x/2023
  * Assignment: 2.x.x: MathClassMethods
  * Purpose: To generate a template for future use.
@@ -16,7 +16,7 @@ public class MathClassMethods
     // Output header information.
     public static void main(String[]args) {
         // Opening statement.
-        System.out.println("Name/Programmer: Andrew Hernandez"
+        System.out.println("Name/Programmer: I love Kotoha"
             + "\nDate: "
             + "\nAssignment: "
             + "\nPurpose: "

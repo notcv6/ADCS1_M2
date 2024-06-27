@@ -2,7 +2,7 @@ package s1;
 
 /**
  * 
- * Name/Programmer: Andrew Hernandez
+ * Name/Programmer: I love Kotoha
  * Date: 8/25/2023
  * Assignment: 2.2.2: WordGame
  * Purpose: To learn and use user input to create programs
@@ -16,7 +16,7 @@ public class WordGame
     // Output header information.
     public static void main(String[]args) {
         // Opening statement.
-        System.out.println("Name/Programmer: Andrew Hernandez"
+        System.out.println("Name/Programmer: I love Kotoha"
             + "\nDate: 8/25/23"
             + "\nAssignment: 2.3.2: WordGame"
             + "\nPurpose: To learn and use user input to create programs."

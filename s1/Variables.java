@@ -2,7 +2,7 @@ package s1;
 
 /**
  * 
- * Name/Programmer: Andrew Hernandez
+ * Name/Programmer: I love Kotoha
  * Date: 8/21/2023
  * Assignment: 2.2.1: Variables
  * Purpose: To learn and use Variables in code.
@@ -13,7 +13,7 @@ public class Variables
 {
     // Output header information.
     public static void main(String[]args) {
-        System.out.println("\nName/Programmer: Andrew Hernandez" 
+        System.out.println("\nName/Programmer: I love Kotoha" 
             + "\nDate: 8/21/2023" 
             + "\nAssignment: 2.2.1: Variables" 
             + "\nPurpose: To learn and use Variables in code."
